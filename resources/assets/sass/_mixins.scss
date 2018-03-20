@@ -1,0 +1,44 @@
+@mixin has($name) {
+  @at-root #{&}__#{$name} {
+    @content
+  }
+}
+
+@mixin m($name) {
+  @at-root #{&}--#{$name} {
+    @content
+  }
+}
+
+/* Typography */
+
+@mixin typo-preferred-font($usePreferred: true) {
+  @if $usePreferred {
+    font-family: $preferred_font;
+  }
+}
+
+@mixin typo-button($colorContrast: false, $usePreferred: true) {
+  @include typo-preferred-font($usePreferred);
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: $button-height;
+  letter-spacing: 0;
+
+  @if $colorContrast {
+    opacity: 0.87;
+  }
+}
+
+/* Animations */
+
+@mixin material-animation-fast-out-linear-in($duration:0.2s) {
+  transition-duration: $duration;
+  transition-timing-function: $animation-curve-fast-out-linear-in;
+}
+
+@mixin material-animation-default($duration:0.2s) {
+  transition-duration: $duration;
+  transition-timing-function: $animation-curve-default;
+}

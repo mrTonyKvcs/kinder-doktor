@@ -1,0 +1,62 @@
+/* Typography */
+
+/* Animations */
+
+/*// Fonts*/
+
+/*}*/
+
+.c-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+  background-image: url("/images/slider.png");
+  background-position: center;
+}
+
+.c-slider__item {
+  text-align: center;
+  color: white;
+}
+
+.c-slider__title {
+  font-weight: 600;
+  color: #0facee;
+}
+
+.c-slider__text {
+  font-size: 18px;
+  color: #fff;
+}
+
+.c-slider__button {
+  font-size: 16px;
+  background-color: #F18CB9;
+  border-color: #F18CB9;
+}
+
+.choose .choose-content {
+  margin-left: 0;
+}
+
+.choose .service-title {
+  color: #0facee;
+}
+
+.depart-image {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 770px) {
+  .slider-section {
+    display: none;
+  }
+}
+

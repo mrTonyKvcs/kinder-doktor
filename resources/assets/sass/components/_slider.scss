@@ -1,0 +1,39 @@
+.c-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("/images/slider.png");
+  background-position: center;
+
+  @include has(item) {
+    text: {
+      align: center;
+    }
+    color: white;
+  }
+
+  @include has(title) {
+    font: {
+      weight: 600;
+    }
+    color: #0facee;
+  }
+
+  @include has(text) {
+    font: {
+      size: 18px;
+    }
+    color: #fff
+  }
+
+  @include has(button) {
+    font: {
+      size: 16px;
+    }
+    background-color: #F18CB9;
+    border-color: #F18CB9;
+  }
+}
+
+
