@@ -10,7 +10,7 @@ class Blog extends Model
 {
     use SoftDeletes;
 
-    protected $fillable = ['category_id', 'editor', 'title', 'images_path', 'description'];
+    protected $fillable = ['category_id', 'slug', 'editor', 'title', 'images_path', 'description'];
 
     /**
      * The attributes that should be mutated to dates.

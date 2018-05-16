@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Blog;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
     public function index()
     {
-        return view('pages.index');
+        $blogs = Blog::all()->random(3);
+
+        return view('pages.index', compact('blogs'));
     }
 
     public function services() 

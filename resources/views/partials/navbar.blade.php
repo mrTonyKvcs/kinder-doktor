@@ -6,11 +6,11 @@
                 <div class="info">
                     <div class="info-item">
                         <i class="fa fa-clock-o"></i>
-                        Mon - Sat : 7:00AM to 9:00PM
+                        <a href="{{ route('pages.contact') }}">Rendelési idő</a>
                     </div>
                     <div class="info-item">
                         <i class="fa fa-map-marker"></i>
-                        E16 Big Ben Street, London, United Kingdom
+                        Kecskemét 6000 Tövis u. 10.
                     </div>
                 </div>
             </div>
@@ -24,10 +24,15 @@
                             Nyelv valasztasa
                             <i class="fa fa-caret-down" aria-hidden="true"></i>
                         </button>
+                       
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <li><a href="#">Spanish</a></li>
-                            <li><a href="#">France</a></li>
-                            <li><a href="#">Arabic</a></li>
+                            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                                <li>
+                                    <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                        {{ $properties['native'] }}
+                                    </a>
+                                </li>
+                            @endforeach
                         </ul>
                     </div>
                 </div>
