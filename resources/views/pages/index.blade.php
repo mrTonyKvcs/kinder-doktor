@@ -161,7 +161,7 @@
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4 pull-right">
                                 <div class="view-more">
-                                    <a href="#" class="btn medical-button">Összes olvasmány</a>
+                                    <a href="{{ route('blogs.index') }}" class="btn medical-button">Összes olvasmány</a>
                                 </div>
                             </div>
                         </div>
