@@ -12,7 +12,7 @@
                             <div class="col-sm-12 col-md-12">
                                 <div class="caption">{{ trans('navbar.homeopathy') }}</div>
                                 <ol class="breadcrumb">
-                                    <li><a href="#">Home</a> </li>
+                                    <li><a href="{{ route('pages.index') }}">{{ trans('navbar.home') }}</a> </li>
                                     <li class="active">{{ trans('navbar.homeopathy') }}</li>
                                 </ol>
                             </div>

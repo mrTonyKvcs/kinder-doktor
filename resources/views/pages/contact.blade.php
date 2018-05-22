@@ -8,10 +8,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12">
-                    <div class="caption">Kapcsolat</div>
+                    <div class="caption">{{ trans('navbar.contact') }}</div>
                     <ol class="breadcrumb">
-                        <li><a href="{{ route('pages.index') }}">Kezdolap</a> </li>
-                        <li class="active">Kapcsolat</li>
+                        <li><a href="{{ route('pages.index') }}">{{ trans('navbar.home') }}</a> </li>
+                        <li class="active">{{ trans('navbar.contact') }}</li>
                     </ol>
                 </div>
             </div>

@@ -9,10 +9,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12">
-                    <div class="caption">Szolgaltatasaim</div>
+                    <div class="caption">{{ trans('navbar.services') }}</div>
                     <ol class="breadcrumb">
-                        <li><a href="{{ route('pages.index') }}">Kezdolap</a> </li>
-                        <li class="active">Szolgaltatasaim</li>
+                        <li><a href="{{ route('pages.index') }}">{{ trans('navbar.home') }}</a> </li>
+                        <li class="active">{{ trans('navbar.services') }}</li>
                     </ol>
                 </div>
             </div>

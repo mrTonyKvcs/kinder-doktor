@@ -38,7 +38,7 @@
                                             </a>
                                         </div>
                                         <div class="media-body">
-                                            <h4 class="media-heading"><a href="#" title="">{{ $favourite->title }}</a></h4>
+                                            <h4 class="media-heading"><a href="{{ route('blogs.show', $favourite->slug) }}" title="">{{ $favourite->title }}</a></h4>
                                             <p class="postago"><i class="fa fa-calendar fa-fw"></i> <span class="color-333">{{ $favourite->created_at }}</span></p>
                                         </div>
                                     </div>
