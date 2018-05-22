@@ -28,7 +28,7 @@
 
 .c-slider__title {
   font-weight: 600;
-  color: #0facee;
+  color: #0d9bd6;
 }
 
 .c-slider__text {
@@ -39,7 +39,7 @@
 .c-slider__button {
   font-size: 16px;
   background-color: #F18CB9;
-  border-color: #F18CB9;
+  color: #0facee;
 }
 
 .choose .choose-content {

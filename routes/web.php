@@ -8,6 +8,7 @@ Route::group(
 {
 //Pages
 Route::get('/', ['as' => 'pages.index', 'uses' => 'PagesController@index']);
+Route::get('homeopatia', ['as' => 'pages.homeopathy', 'uses' => 'PagesController@homeopathy']);
 Route::get('szolgaltatasok', ['as' => 'pages.services', 'uses' => 'PagesController@services']);
 Route::get('kapcsolat', ['as' => 'pages.contact', 'uses' => 'PagesController@contact']);
 

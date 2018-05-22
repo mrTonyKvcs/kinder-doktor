@@ -48,26 +48,30 @@
             <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="{{ route('pages.index') }}">
-            <img src="/images/kinder_doktor.png" alt="image">
+            <img src="/images/kinder_doktor.png" alt="Kinder Doktor">
         </a>
     </div>
 
     <nav class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <a href="{{ route('pages.index') }}">Kezdolap</a>
+                <a href="{{ route('pages.index') }}">{{ trans('navbar.home') }}</a>
+            </li> 
+            
+            <li>
+                <a href="{{ route('pages.homeopathy') }}">{{ trans('navbar.homeopathy') }}</a>
             </li>
 
             <li>
-                <a href="{{ route('pages.services') }}">Szolgaltatasaim</a>
+                <a href="{{ route('pages.services') }}">{{ trans('navbar.services') }}</a>
             </li>
 
             <li>
-                <a href="{{ route('blogs.index') }}">Hirek, olvasmanyok</a>
+                <a href="{{ route('blogs.index') }}">{{ trans('navbar.news') }}</a>
             </li>
 
             <li>
-                <a href="{{ route('pages.contact') }}">Kapcsolat</a>
+                <a href="{{ route('pages.contact') }}">{{ trans('navbar.contact') }}</a>
             </li>
         </ul>
     </nav>

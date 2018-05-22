@@ -17,7 +17,7 @@
     font: {
       weight: 600;
     }
-    color: #0facee;
+    color: darken(#0facee, 5%);
   }
 
   @include has(text) {
@@ -32,7 +32,7 @@
       size: 16px;
     }
     background-color: #F18CB9;
-    border-color: #F18CB9;
+    color: #0facee;
   }
 }
 

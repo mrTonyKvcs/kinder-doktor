@@ -16,9 +16,9 @@
 
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="c-slider__content">
-                                        <h1 class="c-slider__title">Ipsum quis error</h1>
-                                        <p class="c-slider__text">Amet obcaecati sint incidunt ipsum error blanditiis explicabo eaque Itaque totam commodi ducimus consequuntur nulla Eveniet quo magni est consectetur ad fugit? Voluptatum temporibus magnam vitae mollitia assumenda Laudantium temporibus.</p>
-                                        <button type="button" class="btn c-slider__button">Tovabb</button>
+                                        <h1 class="c-slider__title">Homeopátia</h1>
+                                        <p class="c-slider__text">A homeopátia a legtöbb akut és krónikus betegségben alkalmazható, akár van látható szervi elváltozás, akár nincs. Újszülött kortól az agg korig, terhesség alatt, sőt állatoknál is kiváló eredmények érhetők el. Harmonikus, tartós gyógyulást, illetve egészségi állapot javulást hoz létre. </p>
+                                        <a href="{{ route('pages.homeopathy') }}" class="btn c-slider__button">Tovább</a>
                                         </div>
                                     </div>
                                 </div>

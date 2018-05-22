@@ -14,6 +14,11 @@ class PagesController extends Controller
         return view('pages.index', compact('blogs'));
     }
 
+    public function homeopathy()
+    {
+        return view('pages.homeopathy');
+    }
+
     public function services() 
     {
         return view('pages.services');
