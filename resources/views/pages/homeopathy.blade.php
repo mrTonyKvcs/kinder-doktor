@@ -30,7 +30,7 @@
 									<div class="service-detail">
 										{{--<p><img src="/images/picture/service-detail-01.jpg" alt="image" class="img-responsive"></p>--}}
                                         <section class="block-text">
-											<h5 class="tt05">MILYEN BETEGSÉGEK GYÓGYÍTÁSÁRA ALKALMAZHATÓ?</h5>
+                                            <h5 class="tt05">MILYEN BETEGSÉGEK GYÓGYÍTÁSÁRA ALKALMAZHATÓ?</h5>
 											<p>A homeopátia a legtöbb akut és krónikus betegségben alkalmazható, akár van látható szervi elváltozás, akár nincs. Újszülött kortól az agg korig, terhesség alatt, sőt állatoknál is kiváló eredmények érhetők el. Harmonikus, tartós gyógyulást, illetve egészségi állapot javulást hoz létre.</p>
 											<p>Alkalmazható visszatérő légúti betegségek, croup, asztma, allergia, hormonális panaszok, fejfájás, különböző eredetű bőrbetegségek, menstruációs problémák, meddőség, emésztési panaszok, alvászavarok, viselkedés problémák esetén.
 A homeopátiás szerek a hagyományos gyógyszerek és kezelési módok helyett vagy azok kiegészítésére szolgál.

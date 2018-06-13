@@ -42,7 +42,7 @@
                                     <textarea class="form-control" placeholder="{{ trans('contact.message') }}" rows="8"></textarea>
                                 </div>
                                 <div class="display-block">
-                                    <button type="submit" id="submit01" class="medical-button" name="submit">{{ trans('contact.button') }}</button>
+                                    <button type="submit" id="submit01" class="medical-button" name="submit" disabled>{{ trans('contact.button') }}</button>
                                 </div>
                             </form>
                         </div>

@@ -60,9 +60,6 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-7">
                                 <h2 class="tt02">Szolgáltatásaim</h2>
-                                <p class="intro">
-                                Lorem ipsum dolor sit amet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo
-                                </p>
                             </div>
                         </div>
                         <div class="row">
@@ -132,7 +129,7 @@
                             </div>
                             <div class="col-sm-7 col-xs-12">
                                 <div class="testimonial-ctn">
-                                    <p>{!! trans('home-page.citation') !!}</p>
+                                    <p class="pt-16">{!! trans('home-page.citation') !!}</p>
                                     <div class="meta">
                                         <div class="author">
                                             <strong>Dr. Nagy Beáta</strong><br>
@@ -152,12 +149,9 @@
 
                 <section class="section-news">
                     <div class="container">
-                        <h2 class="tt02">Hírek, olvasmányok</h2>
                         <div class="row">
                             <div class="col-xs-12 col-sm-8 col-md-8">
-                                <p>
-    Ipsum blanditiis repellat earum a at. Mollitia facilis et nesciunt perferendis asperiores! Similique commodi eveniet totam et ea. Blanditiis accusamus!
-</p>
+                                <h2 class="tt02">Hírek, olvasmányok</h2>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4 pull-right">
                                 <div class="view-more">

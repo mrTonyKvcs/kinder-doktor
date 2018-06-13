@@ -25,15 +25,15 @@
                             <i class="fa fa-caret-down" aria-hidden="true"></i>
                         </button>
                        
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                                <li>
-                                    <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                                        {{ $properties['native'] }}
-                                    </a>
-                                </li>
-                            @endforeach
-                        </ul>
+                       {{-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">--}}
+                            {{--@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)--}}
+                                {{--<li>--}}
+                                    {{--<a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">--}}
+                                        {{--{{ $properties['native'] }}--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                            {{--@endforeach--}}
+                        {{--</ul>--}}
                     </div>
                 </div>
             </div>
