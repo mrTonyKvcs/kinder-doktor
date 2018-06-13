@@ -42,10 +42,7 @@
                 </div>
                 <div class="text-center spacing-bottom">
                     <ul class="pagination pagination-lg">
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">Next</a></li>
+                        {!! $blogs->render() !!}
                     </ul>
                 </div>
             </div>
