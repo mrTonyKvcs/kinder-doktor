@@ -53,7 +53,7 @@
                             <p><i class="fa fa-map-marker"></i> Kecskemét 6000 Tövis u. 10.</p>
                             <p><i class="fa fa-clock-o"></i> Rendelési idő:<br> Hétfő-Szerda-Péntek: 8-12 óra | Kedd-Csütörtök 15-18 óra</p>
                             <p><i class="fa fa-clock-o"></i>Tanácsadás : Kedd 13-15óra</p>
-                            <p><i class="fa fa-envelope"></i> <a href="mailTo:nagy.beata@alapellatas.hu" class="color-70">nagy.beata@alapellatas.hu</a> </p>
+                            <p><i class="fa fa-envelope"></i> <a href="mailTo:kinderdoki@gmail.com" class="color-70">kinderdoki@gmail.com</a> </p>
                             <p><i class="fa fa-phone"></i> <a href="tel:+3676509661" target="_blank">+3676509661</a></p>
                         </div>
                         <div class="widget contact-info">
