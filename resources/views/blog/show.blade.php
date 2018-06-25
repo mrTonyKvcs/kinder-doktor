@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', $blog->title . ' | Kinder-Doktor')
+
 @section('content')
     <!-- Write code -->
 
@@ -7,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12">
-                    <div class="caption">{{ $blog->title }}</div>
+                    <h1 class="caption">{{ $blog->title }}</h1>
                     <ol class="breadcrumb">
                         <li><a href="{{ route('pages.index') }}">Home</a> </li>
                         <li><a href="{{ route('blogs.index') }}">Hírek, olvasmányok</a> </li>

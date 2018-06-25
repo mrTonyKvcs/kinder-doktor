@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Kapcsolat | Kinder-Doktor')
+
 @section('content')
 
 
@@ -8,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12">
-                    <div class="caption">{{ trans('navbar.contact') }}</div>
+                    <h1 class="caption">{{ trans('navbar.contact') }}</h1>
                     <ol class="breadcrumb">
                         <li><a href="{{ route('pages.index') }}">{{ trans('navbar.home') }}</a> </li>
                         <li class="active">{{ trans('navbar.contact') }}</li>

@@ -8,7 +8,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <meta name="description" content="GYERMEK SZAKORVOSI RENDELÉSEK,  HOMEOPÁTIA,  EGÉSZSÉGPÉNZTÁR,  SCHÜSLER ARCDIAGNOSZTIKA">
-        <meta name="keywords" content="GYERMEK SZAKORVOSI RENDELÉSEK,  HOMEOPÁTIA,  EGÉSZSÉGPÉNZTÁR,  SCHÜSLER ARCDIAGNOSZTIKA">
+        <meta name="keywords" content="gyermekorvos kecskemét, homeopata gyermekorvos, GYERMEK SZAKORVOSI RENDELÉSEK,  HOMEOPÁTIA,  EGÉSZSÉGPÉNZTÁR,  SCHÜSLER ARCDIAGNOSZTIKA">
         <meta name="robots" content="index, follow">
         <meta name="revisit-after" content="3 Months">
         <meta name="author" content="Dr. Nagy Bea">
@@ -18,7 +18,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="rating" content="general">
 
-        <title>Kinder-Doktor</title>
+        <title>@hasSection('title') @yield('title') @else Kinder-Doktor @endif</title>
         <link rel="icon" href="/images/icon.png" type="image/png">
 
         <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
@@ -79,6 +79,16 @@ $(document).ready(function() {
 
 });
         </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121381682-1"></script>
+        <script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-121381682-1');
+        </script>
+
 
     </body>
 </html>
