@@ -30,6 +30,13 @@
         <link rel="stylesheet" type="text/css" href="/stylesheets/global.css">
 
         <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
     </head>
     <body>
 
@@ -60,33 +67,33 @@
         <!-- //map -->
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
         {{--<script>--}}
-{{--var map;--}}
-{{--function initMap() {--}}
-    {{--map = new google.maps.Map(document.getElementById('map'), {--}}
+            {{--var map;--}}
+            {{--function initMap() {--}}
+            {{--map = new google.maps.Map(document.getElementById('map'), {--}}
             {{--center: {lat: 51.515308, lng: 0.035494},--}}
             {{--zoom: 8--}}
             {{--});--}}
-    {{--}--}}
-{{--</script>--}}
+            {{--}--}}
+            {{--</script>--}}
         <script type="text/javascript">
-$(document).ready(function() {
-    $("#owl-demo").owlCarousel({
-        navigation : true,
-        items : 5,
-        itemsDesktop : [1199,4],
-        itemsDesktopSmall : [979,3]
-    });
+            $(document).ready(function() {
+                $("#owl-demo").owlCarousel({
+                    navigation : true,
+                    items : 5,
+                    itemsDesktop : [1199,4],
+                    itemsDesktopSmall : [979,3]
+                });
 
-});
+            });
         </script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121381682-1"></script>
         <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-gtag('config', 'UA-121381682-1');
+            gtag('config', 'UA-121381682-1');
         </script>
 
 

@@ -13,10 +13,7 @@
                         <div class="col-md-3">
                             <div class="social-links">
                                 <div class="icon">
-                                    <a href="#" target="_blank" class="social-link-facebook"><i class="fa fa-facebook"></i></a>
-                                </div>
-                                <div class="icon">
-                                    <a href="#" target="_blank" class="social-link-instagram"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/beanagydr/" target="_blank" class="social-link-facebook" target="_blank"><i class="fa fa-facebook"></i></a>
                                 </div>
                             </div>
                         </div>

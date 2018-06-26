@@ -67,8 +67,7 @@
                                     <label>SHARE:</label>
                                     <div class="post-share">
                                         <ul>
-                                            <li><a href="#" title="facebook"><i class="fa fa-facebook"></i> </a> </li>
-                                            <li><a href="#" title="instagram"><i class="fa fa-instagram"></i> </a> </li>
+                                            <li><a href="https://www.facebook.com/beanagydr/" title="facebook" target="_blank"><i class="fa fa-facebook"></i> </a> </li>
                                         </ul>
                                     </div>
                                 </div>
