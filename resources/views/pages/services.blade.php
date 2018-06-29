@@ -18,7 +18,7 @@
             </div>
         </div>
     </div>
-    <!-- E: .section-banner -->
+    <!-- E: .section-banner --> 
 
     <div class="primary-content">
         <div class="services">
@@ -79,7 +79,7 @@
                                 <div class="choose">
                                     <div class="choose-content">
                                         <h2 class="service-title">{{ trans('services.face') }}</h2>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium dolor emque laudantium</p>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>

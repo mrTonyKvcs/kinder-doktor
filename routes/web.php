@@ -6,6 +6,9 @@ Route::group(
     'middleware' => [ 'localize', 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
 ], function()
 {
+
+Route::get('sitemap.xml', ['uses' => 'SitemapsController@index']);
+
 //Pages
 Route::get('/', ['as' => 'pages.index', 'uses' => 'PagesController@index']);
 Route::get('homeopatia', ['as' => 'pages.homeopathy', 'uses' => 'PagesController@homeopathy']);
