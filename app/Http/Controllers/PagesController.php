@@ -19,6 +19,11 @@ class PagesController extends Controller
         return view('pages.homeopathy');
     }
 
+    public function schussler()
+    {
+        return view('pages.schussler');
+    }
+
     public function services() 
     {
         return view('pages.services');

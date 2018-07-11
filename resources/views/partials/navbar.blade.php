@@ -63,6 +63,10 @@
             </li>
 
             <li>
+                <a href="{{ route('pages.schussler') }}">{{ trans('navbar.schussler') }}</a>
+            </li>
+
+            <li>
                 <a href="{{ route('pages.services') }}">{{ trans('navbar.services') }}</a>
             </li>
 
