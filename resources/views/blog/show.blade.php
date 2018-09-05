@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
+@section('url', route('blogs.show', $blog->slug))
 @section('title', $blog->title . ' | Kinder-Doktor')
+{{--@section('post-image', route('pages.index', $blog->images_path))--}}
+@section('post-image', 'http://kinder-doktor.site/images/blogs/5-poharas-oldat.jpg')
 
 @section('content')
     <!-- Write code -->
@@ -11,7 +14,7 @@
                 <div class="col-sm-12 col-md-12">
                     <h1 class="caption">{{ $blog->title }}</h1>
                     <ol class="breadcrumb">
-                        <li><a href="{{ route('pages.index') }}">Home</a> </li>
+                        <li><a href="{{ route('pages.index') }}"><i class="fa fa-home fa-fw"></i></a> </li>
                         <li><a href="{{ route('blogs.index') }}">Hírek, olvasmányok</a> </li>
                         <li class="active">{{ $blog->title }}</li>
                     </ol>
@@ -29,7 +32,7 @@
 
                         <div class="widget recent-post">
                             <div class="widget-title">
-                                <h4>Recent Post</h4>
+                                <h4>legnépszerűbb Hírek, olvasmányok</h4>
                             </div>
                             <div class="widget-body">
                                 @foreach($favourites as $favourite)
@@ -64,12 +67,9 @@
                                     <p>{!! $blog->description !!}</p>
                                 </div>
                                 <div class="entry-meta">
-                                    <label>SHARE:</label>
-                                    <div class="post-share">
-                                        <ul>
-                                            <li><a href="https://www.facebook.com/beanagydr/" title="facebook" target="_blank"><i class="fa fa-facebook"></i> </a> </li>
-                                        </ul>
-                                    </div>
+                                    <label>Megosztás:</label>
+                                    <!-- Your share button code -->
+                                    <div class="fb-share-button" data-href="{{ route('blogs.show', $blog->slug) }}" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Megosztás</a></div>
                                 </div>
                             </article>
                             <!-- E: article.type-post -->

@@ -6,9 +6,9 @@
                 <div class="info">
                     <div class="info-item">
                         <i class="fa fa-clock-o"></i>
-                        <a href="{{ route('pages.contact') }}">Rendelési idő</a>
+                        <a class="color-pink" href="{{ route('pages.contact') }}">Rendelési idő</a>
                     </div>
-                    <div class="info-item">
+                    <div class="info-item color-pink">
                         <i class="fa fa-map-marker"></i>
                         Kecskemét 6000 Tövis u. 10.
                     </div>
@@ -19,22 +19,22 @@
                     {{--<a class="ui-btn-login ui-link-gray33" href="">--}}
                         {{--<i class="fa fa-key"></i> Login--}}
                         {{--</a>--}}
-                    <div class="dropdown language">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            Nyelv valasztasa
-                            <i class="fa fa-caret-down" aria-hidden="true"></i>
-                        </button>
+                    {{--<div class="dropdown language">--}}
+                        {{--<button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">--}}
+                            {{--Nyelv valasztasa--}}
+                            {{--<i class="fa fa-caret-down" aria-hidden="true"></i>--}}
+                        {{--</button>--}}
                        
-                       {{-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">--}}
-                            {{--@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)--}}
-                                {{--<li>--}}
-                                    {{--<a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">--}}
-                                        {{--{{ $properties['native'] }}--}}
-                                    {{--</a>--}}
-                                {{--</li>--}}
-                            {{--@endforeach--}}
-                        {{--</ul>--}}
-                    </div>
+                       {{--[> <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"><]--}}
+                            {{--[>@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)<]--}}
+                                {{--[><li><]--}}
+                                    {{--[><a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"><]--}}
+                                        {{--[>{{ $properties['native'] }}<]--}}
+                                    {{--[></a><]--}}
+                                {{--[></li><]--}}
+                            {{--[>@endforeach<]--}}
+                        {{--[></ul><]--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
