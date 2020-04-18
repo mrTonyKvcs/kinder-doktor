@@ -17,10 +17,29 @@ Route::get('szolgaltatasok', ['as' => 'pages.services', 'uses' => 'PagesControll
 Route::get('kapcsolat', ['as' => 'pages.contact', 'uses' => 'PagesController@contact']);
 
 //News
-Route::get('hirek-olvasmanyok', ['as' => 'blogs.index', 'uses' => 'BlogsController@index']);
-Route::get('hirek-olvasmanyok/{slug}', ['as' => 'blogs.show', 'uses' => 'BlogsController@show']);
+Route::get('hirek-olvasmanyok', ['as' => 'blogs.index', 'uses' => 'PostController@index']);
+Route::get('hirek-olvasmanyok/{slug}', ['as' => 'blogs.show', 'uses' => 'PostController@show']);
 //});
 
-Auth::routes();
+Route::get('admin/hirek', [ 'as' => 'admin.blogs', 'uses' => 'Admin\PostController@index']);
+Route::post('admin/hirek', [ 'as' => 'admin.blogs.store', 'uses' => 'Admin\PostController@store']);
+Route::get('admin/hirek/{slug}', [ 'as' => 'admin.blogs.edit', 'uses' => 'Admin\PostController@edit']);
+Route::post('admin/hirek/{id}', [ 'as' => 'admin.blogs.update', 'uses' => 'Admin\PostController@update']);
+Route::delete('admin/hirek/{id}', [ 'as' => 'admin.blogs.destroy', 'uses' => 'Admin\PostController@destroy']);
+
+//Auth::routes();
+//Authentication
+Route::get('bejelentkezes', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('bejelentkezes', 'Auth\LoginController@login');
+Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+
+// Password Reset Routes...
+Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
+
+Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
+
+Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
+
+Route::post('password/reset', 'Auth\ResetPasswordController@reset')->name('password.update');
 
 Route::get('/home', 'HomeController@index')->name('home');

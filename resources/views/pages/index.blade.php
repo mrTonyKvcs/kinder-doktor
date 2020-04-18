@@ -165,7 +165,7 @@
                                 <div class="col-xs-12 col-sm-4">
                                     <div class="item-box">
                                         <div class="pic">
-                                            <img src=" {{ $blog->images_path }}" class="img-responsive" alt="{{ $blog->title }}">
+                                            <img src="/posts/{{ $blog->images_path }}" class="img-responsive" alt="{{ $blog->title }}">
                                         </div>
                                         <div class="item-box-body">
                                             <h4 class="tt05"><a href="{{ route('blogs.show', $blog->slug) }}">{{ $blog->title }}</a> </h4>
