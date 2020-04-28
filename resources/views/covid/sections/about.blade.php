@@ -1,8 +1,8 @@
-<section class="about type_one pdt_100 pdb_70  wow fadeIn" data-wow-delay="100ms" data-wow-duration="1500ms" id="about">
+<section class="about type_one pdt_100 pdb_70  wow fadeIn" data-wow-delay="100ms" data-wow-duration="1500ms" id="covid-19">
     <div class="container">
         <div class="row">
             <!---------row----------->
-            <div class="col-lg-12 col-md-12 d-flex">
+            <div class="col-lg-6 col-md-12 d-flex">
                 <!---------col----------->
                 <div class="about_content">
                     <div class="heading tp_one">
@@ -13,6 +13,13 @@
                     globally, resulting in the 2019–2020 coronavirus pandemic. Common symptoms include fever, cough, and shortness of breath. 
                     </p>
                     <p>Other symptoms may include muscle pain, sputum production, diarrhea, sore throat, abdominal pain and loss of smell and taste.</p>
+                </div>
+                <!---------col-end---------->
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <!---------col----------->
+                <div class="image_box">
+                    <img src="/covid/image/resources/about-page-1-1.png" class="img-fluid" alt="img">
                 </div>
                 <!---------col-end---------->
             </div>

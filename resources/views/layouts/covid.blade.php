@@ -6,19 +6,19 @@
       <meta property="fb:app_id" content="312" />
       <meta property="og:type" content="The Cov" />
       <meta property="og:url" content="http://demo9.steelthemes.com/html/the-cov-v-1/"/>
-      <meta property="og:title" content="The Cov is html 5 Template">
+      <meta property="og:title" content="Kinder Doktor | Afias COVID-19 Ab megbízható gyorsteszt">
       <meta property="og:image" content="http://demo9.steelthemes.com/html/the-cov-v-1//covid/image/content-image.jpg">
-      <meta property="og:description" content="The Cov is html 5 Template Developed with By Steelthemes For Medical">
+      <meta property="og:description" content="Afias COVID-19 Ab megbízható gyorsteszt!">
       <meta name="full-screen" content="yes">
       <meta name="theme-color" content="#274782 ">
       <!-- Responsive -->
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-      <title>One Page | The Cov | Responsive HTML 5 Template</title>
+      <title>Kinder Doktor | Afias COVID-19 Ab megbízható gyorsteszt</title>
       <link rel="stylesheet" type="text/css" href="/covid/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="/covid/css/style.css">
       <!---------favicon--------------->
-      <link rel="icon" type="image/png" href="/covid/image/favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="/covid/image/logo-default.png" sizes="32x32">
       <link rel="icon" type="image/png" href="/covid/image/favicon-16x16.png" sizes="16x16">
       <!---------favicon--------------->
    </head>
@@ -48,11 +48,11 @@
                      <div class="col-lg-6 d-flex pr_0">
                         <div class="content_outer">
                            <div class="inner_box">
-                              <h6  class="wow slideInDown" data-wow-delay="100ms" data-wow-duration="1500ms">#stayathome</h6>
-                              <h1  class="wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Protect yourself and others from getting sick</h1>
+                              <h6  class="wow slideInDown" data-wow-delay="100ms" data-wow-duration="1500ms">#maradjotthon</h6>
+                              <h1  class="wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Afias COVID-19 Ab megbízható gyorsteszt</h1>
                               <p  class="wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">Find out everything you need to know about preventing, isolating and treating coronavirus. Our actions as individuals will go a long way in preventing, detecting and isolating potential cases of COVID-19.</p>
                               <div class="link_box wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                 <a href="#" class="theme_btn tp_one"><span class="linearicons-bubble-dots"></span> Check suggestions</a> <a href="#" class="theme_btn tp_border"><span class="linearicons-arrow-right"></span>   About COVID-19</a>
+                                  <a href="#" class="theme_btn tp_one"><span class="linearicons-calendar-text icon"></span>Online bejelentkezés</a> <a href="#arak" class="theme_btn tp_border link_hd"><span class="linearicons-arrow-right"></span>Árak</a>
                               </div>
                            </div>
                         </div>
@@ -67,49 +67,7 @@
             </section>
             <!-------slider--section-end----->
             <!-----------counter--------------->
-            <section class="counter type_one pdt_50 pdb_50">
-               <div class="container">
-                  <div class="row">
-                     <!---------row----------->
-                     <div class="col-lg-6 col-md-12">
-                        <!---------col----------->
-                        <div class="heading white tp_one">
-                           <h6>Worldwide Tracker</h6>
-                           <h1>Coronavirus Pandemic</h1>
-                           <p>Last updated: March 27, 2020, 14:49 GMT</p>
-                        </div>
-                        <!---------col-end---------->
-                     </div>
-                     <div class="col-lg-6 col-md-12 d-flex">
-                        <!---------col----------->
-                        <div class="counter_box_outer">
-                           <div class="row">
-                              <div class="col-lg-4">
-                                 <div class="counter_box type_one">
-                                    <h2><span class="odometer " data-count="558357"></span></h2>
-                                    <h6>Coronavirus Cases</h6>
-                                 </div>
-                              </div>
-                              <div class="col-lg-4">
-                                 <div class="counter_box type_one">
-                                    <h2><span class="odometer " data-count="25262"></span></h2>
-                                    <h6>Deaths</h6>
-                                 </div>
-                              </div>
-                              <div class="col-lg-4">
-                                 <div class="counter_box type_one">
-                                    <h2><span class="odometer " data-count="128718"></span></h2>
-                                    <h6>Recovered</h6>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <!---------col-end---------->
-                     </div>
-                     <!----------row-end---------->
-                  </div>
-               </div>
-            </section>
+            @include('covid.sections.counter')
             <!-----------counter-end-------------->
             <!-----------about--------------->
             @include('covid.sections.about')
@@ -117,6 +75,7 @@
             <!-----------symptoms--------------->
             @include('covid.sections.symptoms')
             <!-----------symptoms-end-------------->
+            @include('covid.sections.prices')
             <!-----------faq--------------->
             @include('covid.sections.faq')
             <!-----------faq-end-------------->
@@ -132,56 +91,45 @@
                         <!---------col----------->
                         <div class="footer_widgets left type_one">
                            <div class="widgets_title">
-                              <h1 class="title">Get in touch</h1>
-                              <p> If you need answers to your question, feel free to use our contact form below<br class="md_display_none"> and our experts will get back to you immediatly</p>
+                              <h1 class="title">Üzenet küldés</h1>
+                              <p>Ha kérdése van, forduljon hozzánk bizalommal!</p>
                            </div>
                            <div class="form_box type_one">
                               <form>
                                  <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-12">
                                        <div class="form-group">
-                                          <input type="text" name="name" placeholder="Your Name" />
+                                          <input type="text" name="name" placeholder="Neve" required/>
                                           <small class="linearicons-user"></small>
                                        </div>
                                     </div>
                                     <div class="col-lg-6">
                                        <div class="form-group">
-                                          <input type="email" name="email" placeholder="Your Email Address" />
+                                          <input type="email" name="email" placeholder="Email címe" required/>
                                           <small class="linearicons-envelope-open"></small>
                                        </div>
                                     </div>
                                     <div class="col-lg-6">
                                        <div class="form-group">
-                                          <input type="text" name="phone" placeholder="Your Phone" />
+                                          <input type="text" name="phone" placeholder="Telefonszáma" required/>
                                           <small class="linearicons-telephone"></small>
-                                       </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                       <div class="form-group">
-                                          <select name="location" id="location">
-                                             <option selected="selected">Select your Location</option>
-                                             <option>3</option>
-                                             <option>4</option>
-                                             <option>5</option>
-                                          </select>
-                                          <small class="linearicons-network"></small>
                                        </div>
                                     </div>
                                     <div class="col-lg-12">
                                        <div class="form-group textarea">
-                                          <textarea name="message" placeholder="Your Message..." rows="6"></textarea>
+                                          <textarea name="message" placeholder="Üzenete..." rows="6" required></textarea>
                                           <small class="linearicons-pencil4"></small>
                                        </div>
                                     </div>
                                     <div class="col-lg-8">
                                        <div class="form-group mg_top check_box">
                                           <input name="checkbox" type="checkbox" id="test2" required="required">
-                                          <label for="test2">I accept the <a href="#" target="_blank">Privacy Policy.</a></label>
+                                          {{--<label for="test2">I accept the <a href="#" target="_blank">Privacy Policy.</a></label>--}}
                                        </div>
                                     </div>
                                     <div class="col-lg-4">
                                        <div class="form-group">
-                                          <button class="submit_btn" type="submit">Submit</button>
+                                          <button class="submit_btn" type="submit">Küldés</button>
                                        </div>
                                     </div>
                                  </div>
@@ -194,29 +142,21 @@
                         <!---------col----------->
                         <div class="footer_widgets right type_one">
                            <div class="widgets_title">
-                              <h1 class="title">Contact us</h1>
+                              <h1 class="title">Kapcsolat</h1>
                            </div>
                            <div class="emergency_phone">
-                              <h6>Emergency phone</h6>
-                              <h2> +61 (8) 8234 3555</h2>
+                              <h6>Telefonszám</h6>
+                              <h2><a href="tel:+36706282124" style="color: #dd2d4e;">+36706282124</a></h2>
                            </div>
                            <ul class="contact_all">
-                              <li><a href="#"><span class="linearicons-home4"></span>Level 13, 2 Elizabeth St, Melbourne, Victoria 3000, AUS</a></li>
-                              <li><a href="#"><span class="fa fa-skype"></span>Skype ID: <small>thecov.net</small></a></li>
-                              <li><a href="#"><span class="linearicons-telephone"></span>Phone: <small>+61 (8) 8277 9222</small></a></li>
-                              <li><a href="#"><span class="linearicons-envelope-open"></span>Email: <small>info@thecov.net</small></a></li>
+                              <li><a href="#"><span class="linearicons-home4"></span>Kecskemét 6000 Kápolna u. 15.</a></li>
+                              <li><a href="#"><span class="linearicons-envelope-open"></span>Email: <small>kinderdoki@gmail.com</small></a></li>
                            </ul>
                            <ul class="social_media">
                               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                               <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
                               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                              <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
                            </ul>
-                           <div class="anouncement">
-                              <h5>Announcement:</h5>
-                              <p> All the information based on WHO, NHS and CDC website. Information on our website is meant for awareness, if you have any doubt please verify from respective site.</p>
-                           </div>
                         </div>
                         <!---------col-end---------->
                      </div>
@@ -234,14 +174,13 @@
                         <!---------col----------->
                         <div class="footer_last_box">
                            <div class="logo_footer">
-                              <img src="/covid/image/footer-logo.png" class="img-fluid" alt="img" />
+                              <img src="/covid/image/logo-default.png" class="img-fluid" alt="img" />
                            </div>
                            <ul>
-                              <li>© Copyright 2020 TheCov Protect Yourself</li>
+                              <li>© Copyright 2020 Kinder-Doktor</li>
                              <li> |</li>
-                              <li><a href="#">Term of Use </a> <a href="#">  Privacy Policy  </a> <a href="#">  Impressum</a></li>
+                              <li> <a href="#">Adatkezelési Tájékoztató</a> </li>
                            </ul>
-                           <p  class="side-menu__block__text site-footer__copy-text">Developed with <span class="linearicons-heart"></span> by<small><a href="https://themeforest.net/user/steelthemes/portfolio?direction=desc&order_by=sortable_at&view=grid"> Steelthemes</a></small></p>
                         </div>
                         <!---------col-end---------->
                      </div>
@@ -284,44 +223,38 @@
                <div class="col-lg-12 ">
                   <div class="side-menu__block-contact ">
                      <span class="side_menu_close linearicons-cross close_arrow"> </span>
-                     <h2>Get in touch</h2>
-                     <p>  If you have any question before we start, please fill below  the contact form.</p>
+                     <h2>Üzenet küldés</h2>
+                     <p>Ha kérdése van, forduljon hozzánk bizalommal!</p>
                      <div class="form_outer">
                         <form>
                            <div class="row">
                               <div class="col-lg-12">
                                  <div class="from_group">
-                                    <input type="text" name="name" placeholder="Your Name" />
+                                     <input type="text" name="name" placeholder="Neve" required/>
                                     <small class="linearicons-user"></small>
                                  </div>
                               </div>
                               <div class="col-lg-12">
                                  <div class="from_group">
-                                    <input type="email" name="email" placeholder="Your Email Address" />
+                                     <input type="email" name="email" placeholder="Email címe" required/>
                                     <small class="linearicons-envelope-open"></small>
                                  </div>
                               </div>
                               <div class="col-lg-12">
                                  <div class="from_group">
-                                    <input type="text" name="phone" placeholder="Your Phone" />
+                                     <input type="text" name="phone" placeholder="Telefonszáma" required/>
                                     <small class="linearicons-telephone"></small>
                                  </div>
                               </div>
                               <div class="col-lg-12">
                                  <div class="from_group text-area">
-                                    <textarea rows="5" placeholder="Your Message..."></textarea>
+                                     <textarea name="message" placeholder="Üzenete..." rows="6" required></textarea>
                                     <small class="linearicons-pencil4"></small>
-                                 </div>
-                              </div>
-                              <div class="col-lg-7">
-                                 <div class="form-group mg_top check_box">
-                                    <input name="checkbox" type="checkbox" id="test7" required="required">
-                                    <label for="test7">I accept the <a href="#" target="_blank">Privacy Policy.</a></label>
                                  </div>
                               </div>
                               <div class="col-lg-5">
                                  <div class="from_group">
-                                    <button class="submit_btn" type="submit">Submit</button>
+                                     <button class="submit_btn" type="submit">Küldés</button>
                                  </div>
                               </div>
                            </div>
@@ -330,27 +263,22 @@
                   </div>
                   <!-- /.side-menu__block-contact -->
                   <div class="side-menu__block-contact">
-                     <h3 class="side-menu__block__title">Social Network</h3>
+                     <h3 class="side-menu__block__title">Közösségi média</h3>
                      <!-- /.side-menu__block__title -->
                      <ul class="social_media">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
                      </ul>
                      <!-- /.side-menu__block-contact__list -->
                      <ul class="links">
-                        <li><a href="#">Term of Use </a></li>
-                        <li> <a href="#">  Privacy Policy  </a></li>
-                        <li> <a href="#">  Impressum</a></li>
+                        <li> <a href="#">Adatkezelési Tájékoztató</a></li>
                      </ul>
                   </div>
                   <!-- /.side-menu__block-contact -->
                   <p class="side-menu__block__text site-footer__copy-text">
-                     <a href="#">© Copyright 2020 TheCov Protect Yourself.</a> 
+                     <a href="#">© Copyright 2020 Kinder-Doktor</a> 
                   </p>
-                  <p  class="side-menu__block__text site-footer__copy-text">Developed with <span class="linearicons-heart"></span> by<small><a href="https://themeforest.net/user/steelthemes/portfolio?direction=desc&order_by=sortable_at&view=grid"> Steelthemes</a></small></p>
                </div>
             </div>
             <!-- /.side-menu__block-inner -->

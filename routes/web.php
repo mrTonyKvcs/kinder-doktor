@@ -6,15 +6,6 @@
     //'middleware' => [ 'localize', 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
 //], function()
 /*{*/
-Route::get('who', function() {
-    $client = new \GuzzleHttp\Client();
-    dd($client);
-    //$response = $client->request('GET', 'https://api.instagram.com/v1/users/self/media/recent/', ['query' => [
-        //'access_token'  => '8185877104.1677ed0.3e53841b9025452486577408a753a48b'
-
-        //$posts = collect(json_decode($response->getBody())->data);
-
-});
 
 Route::get('sitemap.xml', ['uses' => 'SitemapsController@index']);
 
@@ -31,7 +22,7 @@ Route::get('hirek-olvasmanyok/{slug}', ['as' => 'blogs.show', 'uses' => 'PostCon
 //});
 
 //COVID-19
-Route::get('covid-19-teszt', [ 'as' => 'covid.index', 'uses' => 'CovidController@index']);
+Route::get('covid-19', [ 'as' => 'covid.index', 'uses' => 'CovidController@index']);
 
 Route::get('admin/hirek', [ 'as' => 'admin.blogs', 'uses' => 'Admin\PostController@index']);
 Route::post('admin/hirek', [ 'as' => 'admin.blogs.store', 'uses' => 'Admin\PostController@store']);

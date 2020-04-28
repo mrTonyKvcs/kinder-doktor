@@ -5,22 +5,15 @@
             <button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse scroll-nav" id="navbarnav">
                 <ul class="navbar-nav navbar-mobile navbar_left  ml-auto">
-                    <li class="nav-item  home active  drop_down">
-                        <a class="nav-link link_hd" href="#home"> <i class="linearicons-home4 home_icon"></i> </a>
-                        <ul class="navbar-nav submenu">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home Default</a></li>
-                            <li class="nav-item"><a class="nav-link" href="one-page.html">Home Onepage</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link link_hd" href="#about">About </a></li>
+                    <li class="nav-item home active"><a class="nav-link link_hd" href="#covid-19"><i class="linearicons-home4 home_icon"></i> </a></li>
+                    <li class="nav-item"><a class="nav-link link_hd" href="#covid-19">COVID-19 </a></li>
                     <li class="nav-item"><a class="nav-link link_hd" href="#tunetek">Tünetek</a> </li>
-                    <li class="nav-item"> <a class="nav-link link_hd" href="#protection">  Protection  </a> </li>
-                    <li class="nav-item"><a class="nav-link link_hd" href="#prevention">  Prevention  </a></li>
                     <li class="nav-item"><a class="nav-link link_hd" href="#gyakori-kerdesek">Gyakori Kérdések</a></li>
                     <li class="nav-item "><a class="nav-link link_hd" href="#kezmosas">Kézmosás</a> </li>
+                    <li class="nav-item "><a class="nav-link link_hd" href="#arak">Árak</a> </li>
                 </ul>
                 <ul class="navbar-nav navbar-mobile navbar_right">
-                    <li><a class="theme_btn tp_one" href="#"><span class="linearicons-cloud-download icon"></span>Download App</a></li>
+                    <li><a class="theme_btn tp_one" href="#"><span class="linearicons-calendar-text icon"></span>Online bejelentkezés</a></li>
                 </ul>
                 <div class="options_menu ">
                     <!-- /.site-header__cart -->
