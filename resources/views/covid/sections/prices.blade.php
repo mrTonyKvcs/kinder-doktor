@@ -6,7 +6,7 @@
                 <!---------col----------->
                 <div class="heading white text-center tp_one">
                     <h6>Árak</h6>
-                    <h1>Megbízható gyorsteszt</h1>
+                    <h1 style="color: #274782;">Megbízható gyorsteszt</h1>
                     <p> Travel restrictions or screening air travellers for high temperature (fever) may help to prevent the SARS <br class="md_display_none">infection being spread.</p>
                 </div>
                 <!---------col-end---------->
@@ -23,7 +23,7 @@
                     {{--</div>--}}
                     <div class="content_box">
                         <h2><a href="#">1 fő egyidejű szűrése</a></h2>
-                        <h3>16 000Ft</h3>
+                        <h3>16.000Ft</h3>
                     </div>
                 </div>
                 <!---------symptoms_box-end---------->
