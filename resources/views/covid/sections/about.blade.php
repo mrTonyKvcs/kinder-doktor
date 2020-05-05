@@ -9,10 +9,12 @@
                         <h6>A betegségről</h6>
                         <h1>COVID-19 koronavírus</h1>
                     </div>
-                    <p>Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2. The disease was first identified in 2019 in Wuhan, the capital of Hubei, China, and has since spread
-                    globally, resulting in the 2019–2020 coronavirus pandemic. Common symptoms include fever, cough, and shortness of breath. 
-                    </p>
-                    <p>Other symptoms may include muscle pain, sputum production, diarrhea, sore throat, abdominal pain and loss of smell and taste.</p>
+                    <p>A koronavírus-betegség (COVID-19) egy súlyos, akut légzőszervi betegség. A
+betegséget először 2019-ben fedezték fel Wuhan-ban, a kínai Hubei fővárosában, és
+azóta világszerte elterjedt. 2020. március 11-én a WHO világjárvánnyá, pandémiává
+nyilvánította a COVID–19 koronavírus-járványt.</p>
+                    <p>Általános tünetek a láz, köhögés és légszomj. Egyéb tünetek lehetnek izomfájdalom,
+köpetképződés, hasmenés, torokfájás, hasi fájdalom, szag- és ízérzés vesztése.</p>
                 </div>
                 <!---------col-end---------->
             </div>

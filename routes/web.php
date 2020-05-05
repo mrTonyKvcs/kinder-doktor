@@ -23,6 +23,7 @@ Route::get('hirek-olvasmanyok/{slug}', ['as' => 'blogs.show', 'uses' => 'PostCon
 
 //COVID-19
 Route::get('covid-19', [ 'as' => 'covid.index', 'uses' => 'CovidController@index']);
+Route::get('covid-19/online-bejelentkezes', [ 'as' => 'appointments.index', 'uses' => 'AppointmentsController@index']);
 
 Route::get('admin/hirek', [ 'as' => 'admin.blogs', 'uses' => 'Admin\PostController@index']);
 Route::post('admin/hirek', [ 'as' => 'admin.blogs.store', 'uses' => 'Admin\PostController@store']);

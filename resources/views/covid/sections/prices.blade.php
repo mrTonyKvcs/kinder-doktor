@@ -47,7 +47,7 @@ egyidejű szűrése </a></h2>
         <div class="row">
                      <!---------row----------->
                      <div class="col-lg-12 text-center">
-                        <a class="theme_btn tp_one" href="#"><span class="linearicons-calendar-text icon"></span>Online bejelentkezés</a>
+                        <a class="theme_btn tp_one" href="{{ route('appointments.index') }}"><span class="linearicons-calendar-text icon"></span>Online bejelentkezés</a>
                      </div>
                      <!----------row-end---------->
                   </div>
