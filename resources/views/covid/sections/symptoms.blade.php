@@ -25,7 +25,7 @@
                         </div>
                         <div class="content_box">
                             <h2><a href="#">Magas láz</a></h2>
-                            <p> Fever is a key symptom, experts say. Don't fixate on a number, but know it's really not a fever until your temperature reaches at least 39°C.</p>
+                            {{--<p> Fever is a key symptom, experts say. Don't fixate on a number, but know it's really not a fever until your temperature reaches at least 39°C.</p>--}}
                         </div>
                     </div>
                     <!---------symptoms_box-end---------->
@@ -36,7 +36,7 @@
                         </div>
                         <div class="content_box">
                             <h2><a href="#">Köhögés </a></h2>
-                            <p> Coughing is another key symptom, but it's not just any cough, said Schaffner. It should be a dry cough that you feel in your chest.</p>
+                            {{--<p> Coughing is another key symptom, but it's not just any cough, said Schaffner. It should be a dry cough that you feel in your chest.</p>--}}
                         </div>
                     </div>
                     <!---------symptoms_box-end---------->
@@ -47,7 +47,7 @@
                         </div>
                         <div class="content_box">
                             <h2><a href="#">Torokfájás</a></h2>
-                            <p> You feel hot to touch on your chest or back It is a common sign and also may appear in 2-10 days if you affected.</p>
+                            {{--<p> You feel hot to touch on your chest or back It is a common sign and also may appear in 2-10 days if you affected.</p>--}}
                         </div>
                     </div>
                     <!---------symptoms_box-end---------->
@@ -58,7 +58,7 @@
                         </div>
                         <div class="content_box">
                             <h2><a href="#">Fejfájás </a></h2>
-                            <p> Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing or shortness of breath. </p>
+                            {{--<p> Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing or shortness of breath. </p>--}}
                         </div>
                     </div>
                     <!---------symptoms_box-end---------->

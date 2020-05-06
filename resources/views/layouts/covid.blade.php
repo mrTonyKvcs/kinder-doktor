@@ -124,7 +124,7 @@
                      </ul>
                      <!-- /.side-menu__block-contact__list -->
                      <ul class="links">
-                        <li> <a href="#">Adatkezelési Tájékoztató</a></li>
+                        <li> <a href="/pdfs/kinder-doktor-gdpr.pdf" target="_blank">Adatkezelési Tájékoztató</a></li>
                      </ul>
                   </div>
                   <!-- /.side-menu__block-contact -->
@@ -155,5 +155,10 @@
          <script src="/covid/js/odometer.min.js "></script>
          <script src="/covid/js/pagenav.js "></script>
          <script src="/covid/js/custom.js "></script>------------------->
+         <script>
+             $('#topic').on('change',function(){
+                console.log('hello')
+             })
+         </script>
    </body>
 </html>

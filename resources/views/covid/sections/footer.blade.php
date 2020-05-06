@@ -93,7 +93,7 @@
                     <ul>
                         <li>© Copyright 2020 Kinder-Doktor</li>
                         <li> |</li>
-                        <li> <a href="#">Adatkezelési Tájékoztató</a> </li>
+                        <li> <a href="/pdfs/kinder-doktor-gdpr.pdf" target="_blank">Adatkezelési Tájékoztató</a> </li>
                     </ul>
                 </div>
                 <!---------col-end---------->

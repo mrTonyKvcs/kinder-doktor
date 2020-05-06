@@ -17,12 +17,12 @@
             <!---------row----------->
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <!---------symptoms_box----------->
-                <div class="symptoms_box type_two  wow fadeIn animated" data-wow-delay="100ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeIn;">
+                <div class="symptoms_box type_two  wow fadeIn animated" data-wow-delay="100ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeIn; min-height: 165px;">
                     {{--<div class="image_box">--}}
                         {{--<img src="assets/image/resources/symptoms-2-1.png" class="img-fluid" alt="img">--}}
                     {{--</div>--}}
                     <div class="content_box">
-                        <h2><a href="#">1 fő egyidejű szűrése</a></h2>
+                        <h2 class=""><a href="#">11.500 fő egyidejű szűrése</a></h2>
                         <h3>16.000Ft</h3>
                     </div>
                 </div>
@@ -35,9 +35,8 @@
                         {{--<img src="assets/image/resources/symptoms-2-2.png" class="img-fluid" alt="img">--}}
                     {{--</div>--}}
                     <div class="content_box">
-                        <h2><a href="#">2 vagy több fő
-egyidejű szűrése </a></h2>
-                        <h3>14.000 Ft /fő</h3>
+                        <h2><a href="#">6 fő felett, és a védekezésben dolgozóknak</a></h2>
+                        <h3>9.200 Ft /fő</h3>
                     </div>
                 </div>
                 <!---------symptoms_box-end---------->

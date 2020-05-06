@@ -33,9 +33,11 @@
                     <!------col------->
                     <div class="heading tp_one">
                         <h1>Adatlap</h1>
+                        <p style="font-size: 21px;">A normál ár 11.500, 6 fő felett, és a védekezésben dolgozóknak 9200.</p>
                     </div>
                     <div class="appointment_form pdb_90">
-                        <form>
+                        <form  action="{{ route('appointments.store')}}" method="POST">
+                            {{ csrf_field() }}
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
@@ -51,8 +53,8 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group padding_no">
-                                        <input type="text" id="birthday" placeholder="Születési idő" required>
-                                        <i class="linearicons-calendar-full"></i>
+                                        <input type="date" id="birthday" placeholder="Születési idő" required>
+                                        {{--<i class="linearicons-calendar-full"></i>--}}
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -74,10 +76,10 @@
                                     </div>
                                 </div><div class="col-lg-12">
                                     <div class="form-group">
-                                        <h2>Covid-19 Teszt (db)</h2>
-                                        <select name="piece" id="topic">
-                                            <option selected="selected">Válassza ki hány darab covid-19 tesztet szeretne</option>
-                                            @for($i = 1; $i <= 30; $i++)
+                                        <h2>Válassza ki hány darab covid-19 tesztet szeretne</h2>
+                                        <select class="select-piece" name="piece" id="topic" required>
+                                            <option value="1" selected="selected">1</option>
+                                            @for($i = 2; $i <= 30; $i++)
                                                 <option value ="{{$i}}">{{ $i }}</option>
                                             @endfor
                                         </select>
@@ -86,8 +88,19 @@
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <h2>Fizetési mód</h2>
-                                        <select name="piece" id="doctors">
+                                        <select name="pay_method" id="doctors" required>
                                             <option selected="selected">Válasszon fizetési módot!</option>
+                                            <option value"Bankkártyás fizetés">Bankkártyás fizetés</option>
+                                            <option value="Átutalás">Átutalás</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <h2>Védekezésben dolgozó</h2>
+                                        <select name="pay_method" id="age" required>
+                                            <option value="0" selected="selected">Nem</option>
+                                            <option value="1">Igen</option>
                                         </select>
                                     </div>
                                 </div>
@@ -107,16 +120,27 @@
                                         <input type="text" name="zip_code" placeholder="Irányítószám" required/>
                                         {{--<small class="linearicons-user"></small>--}}
                                     </div>
-                                </div><div class="col-lg-12">
+                                </div>
+                                <div class="col-lg-12 mb-3">
                                     <div class="form-group">
                                         <input type="text" name="address" placeholder="Utca, házszám" required/>
                                         {{--<small class="linearicons-user"></small>--}}
                                     </div>
                                 </div>
+                                {{--<div class="col-lg-6 my-3">--}}
+                                    {{--<div class="form-group mb-0 d-flex align-items-center">--}}
+                                        {{--<h2>Bruttó végösszeg:</h2>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-lg-6 my-3">--}}
+                                    {{--<div class="form-group mb-0">--}}
+                                        {{--<h2 id="all"></h2>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
                                 <div class="col-lg-8">
                                     <div class="form-group mg_top accept check_box">
-                                        <input name="checkbox" type="checkbox" id="test4" required="required">
-                                        <label for="test4"><a href="#" target="_blank">Adatkezelési tájékoztatóban </a>foglaltakat elolvastam, megértettem, és időpont kéréssel hozzájárulok ahhoz, hogy személyes adataimat a tájékoztatóban megjelölt célból és feltételekkel a Kinder-doktor Kft. kezelje.</label>
+                                        <input name="gdpr" type="checkbox" id="test4" required="required">
+                                        <label for="test4"><a href="/pdfs/kinder-doktor-gdpr.pdf" target="_blank">Adatkezelési tájékoztatóban </a>foglaltakat elolvastam, megértettem, és időpont kéréssel hozzájárulok ahhoz, hogy személyes adataimat a tájékoztatóban megjelölt célból és feltételekkel a Kinder-doktor Kft. kezelje.</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">

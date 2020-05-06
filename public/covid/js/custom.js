@@ -599,3 +599,5 @@ jQuery(window).on('load', function() {
         prealoader();
     })(jQuery);
 });
+
+$("#topic").on('change', function () { alert('helo'); });

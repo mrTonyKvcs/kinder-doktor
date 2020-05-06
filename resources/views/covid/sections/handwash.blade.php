@@ -71,7 +71,7 @@
                         </div>
                         <small>5</small>
                         <div class="content_box">
-                            <h2><a href="#">Back of hands</a></h2>
+                            <h2><a href="#">Kézfejek</a></h2>
                         </div>
                     </div>
                     <!---------handwash_box-end---------->
@@ -82,7 +82,7 @@
                         </div>
                         <small>6</small>
                         <div class="content_box">
-                            <h2><a href="#">Focus on wrists</a></h2>
+                            <h2><a href="#">Ujjbegyek</a></h2>
                         </div>
                     </div>
                     <!---------handwash_box-end---------->
