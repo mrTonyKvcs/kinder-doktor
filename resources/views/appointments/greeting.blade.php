@@ -35,8 +35,8 @@
                     </div>
                     <p style="font-size: 25px;">helyszin, idopont egyezteto szoveg</p>
                     <hr>
-                    <h4 class="mt-3" style="color: #274782;">COVID–19 teszt: {{$piece}}db<h4>
-                            <h4 class="my-3" style="color: #274782;">Fizetendő összeg: <span style="color: #dd2d4e;">{{$total}}Ft<span><h4>
+                    <h4 class="mt-3" style="color: #274782;">COVID–19 teszt: <span style="color: #dd2d4e;">{{$piece}}</span> db<h4>
+                            <h4 class="my-3" style="color: #274782;">Fizetendő összeg: <span style="color: #dd2d4e;">{{$total}}</span> Ft<h4>
                     <a href="/docs/kerdoiv-covid-19.docx" class="theme_btn tp_one mt-5">COVID-19 kérdőív letöltés</a> 
                 </div>
                 <div class="col-lg-6">
