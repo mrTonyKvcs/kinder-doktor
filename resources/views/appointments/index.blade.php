@@ -39,6 +39,17 @@
                         <form  action="{{ route('appointments.store')}}" method="POST">
                             {{ csrf_field() }}
                             <div class="row">
+                                <div class="col-lg-12">
+                                    @if ($errors->any())
+                                        <div class="alert alert-danger">
+                                            <ul>
+                                                @foreach ($errors->all() as $error)
+                                                    <li>{{ $error }}</li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                    @endif
+                                </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <input type="text" name="last_name" placeholder="Vezetéknév" />
@@ -53,7 +64,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group padding_no">
-                                        <input type="date" id="birthday" placeholder="Születési idő" required>
+                                        <input type="date" name="birthday" id="birthday" placeholder="Születési idő" required>
                                         {{--<i class="linearicons-calendar-full"></i>--}}
                                     </div>
                                 </div>
@@ -98,7 +109,7 @@
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <h2>Védekezésben dolgozó</h2>
-                                        <select name="pay_method" id="age" required>
+                                        <select name="is_nurse" id="age" required>
                                             <option value="0" selected="selected">Nem</option>
                                             <option value="1">Igen</option>
                                         </select>
@@ -139,7 +150,7 @@
                                 {{--</div>--}}
                                 <div class="col-lg-8">
                                     <div class="form-group mg_top accept check_box">
-                                        <input name="gdpr" type="checkbox" id="test4" required="required">
+                                        <input name="gdpr" type="checkbox" id="test4" required="required" value="1">
                                         <label for="test4"><a href="/pdfs/kinder-doktor-gdpr.pdf" target="_blank">Adatkezelési tájékoztatóban </a>foglaltakat elolvastam, megértettem, és időpont kéréssel hozzájárulok ahhoz, hogy személyes adataimat a tájékoztatóban megjelölt célból és feltételekkel a Kinder-doktor Kft. kezelje.</label>
                                     </div>
                                 </div>

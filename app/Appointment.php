@@ -21,7 +21,9 @@ class Appointment extends Model
         'city',
         'address',
         'zip_code',
-        'gdpr'
+        'gdpr',
+        'is_nurse',
+        'total'
     ];
 
     /**

@@ -27,6 +27,8 @@ class CreateAppointmentsTable extends Migration
             $table->string('zip_code')->nullable()->default(null);
             $table->string('address')->nullable()->default(null);
             $table->boolean('gdpr');
+            $table->boolean('is_nurse');
+            $table->integer('total');
             $table->timestamps();
             $table->softDeletes();
         });
