@@ -9,8 +9,8 @@
                 <div class="col-lg-6 d-flex pr_0">
                     <div class="content_outer">
                         <div class="inner_box">
-                            <h6  class="wow slideInDown" data-wow-delay="100ms" data-wow-duration="1500ms">#maradjotthon</h6>
-                            <h1  class="wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Afias COVID-19 Ab megbízható gyorsteszt</h1>
+                            {{--<h6  class="wow slideInDown" data-wow-delay="100ms" data-wow-duration="1500ms">#maradjotthon</h6>--}}
+                            <h1  class="wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Afias 6 megbízható laborteszt</h1>
                             <p  class="wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">Find out everything you need to know about preventing, isolating and treating coronavirus. Our actions as individuals will go a long way in preventing, detecting and isolating potential cases of COVID-19.</p>
                             <div class="link_box wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <a href="{{ route('appointments.index') }}" class="theme_btn tp_one"><span class="linearicons-calendar-text icon"></span>Online bejelentkezés</a> <a href="#arak" class="theme_btn tp_border link_hd"><span class="linearicons-arrow-right"></span>Árak</a>
