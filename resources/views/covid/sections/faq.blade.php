@@ -1,4 +1,4 @@
-<section class="faq type_one faq_tabs pdt_100  pdb_100 wow fadeIn" data-wow-delay="400ms" data-wow-duration="1500ms" id="gyakori-kerdesek">
+<section class="faq type_one faq_tabs pdt_30  pdb_30 wow fadeIn" data-wow-delay="400ms" data-wow-duration="1500ms" id="gyakori-kerdesek">
     <div class="container">
         <div class="row">
             <!---------row----------->

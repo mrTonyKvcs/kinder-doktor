@@ -65,7 +65,7 @@
                         <h2><a href="tel:+36306038815" style="color: #dd2d4e;">+36306038815</a></h2>
                     </div>
                     <ul class="contact_all">
-                        <li><a href="#"><span class="linearicons-home4"></span>6000 Kecskemét, Piaristák tere 7. <br>(A tüdőgondozó oldalában.)</a></li>
+                        <li><a href="#"><span class="linearicons-home4"></span>6000 Kecskemét, Piaristák tere 7. <br>(Oldalt a Fogászati Ügyelet felöli bejáratnál)</a></li>
                         <li><a href="mailtto:info@covidvirusteszt.hu"><span class="linearicons-envelope-open"></span>Email: <small>info@covidvirusteszt.hu</small></a></li>
                     </ul>
                     <ul class="social_media">

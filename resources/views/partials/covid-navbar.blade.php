@@ -5,7 +5,7 @@
             <button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse scroll-nav" id="navbarnav">
                 <ul class="navbar-nav navbar-mobile navbar_left  ml-auto">
-                    <li class="nav-item home active"><a class="nav-link link_hd" style="font-size: 17px;" href="#covid-19"><i class="linearicons-home4 home_icon"></i> </a></li>
+                    <li class="nav-item home active"><a class="nav-link link_hd" style="font-size: 17px;" href="/covid-19"><i class="linearicons-home4 home_icon"></i> </a></li>
                     <li class="nav-item"><a class="nav-link link_hd" style="font-size: 17px;" href="/covid-19/#covid-19">COVID-19 </a></li>
                     <li class="nav-item"><a class="nav-link link_hd" style="font-size: 17px;" href="/covid-19/#tunetek">Tünetek</a> </li>
                     <li class="nav-item"><a class="nav-link link_hd" style="font-size: 17px;" href="/covid-19/#gyakori-kerdesek">Gyakori Kérdések</a></li>

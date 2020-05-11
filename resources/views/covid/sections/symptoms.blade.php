@@ -1,4 +1,4 @@
-<section class="symptoms type_one pdt_100  pdb_100" id="tunetek">
+<section class="symptoms type_one pdt_30  pdb_25" id="tunetek">
     <div class="container">
         <div class="row">
             <!---------row----------->

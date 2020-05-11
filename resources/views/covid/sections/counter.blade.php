@@ -1,5 +1,5 @@
 
-<section class="counter type_one pdt_50 pdb_50">
+<section class="counter type_one pdt_30 pdb_30">
     <div class="container">
         <div class="row">
             <!---------row----------->

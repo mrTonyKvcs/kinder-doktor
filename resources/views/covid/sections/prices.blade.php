@@ -1,4 +1,4 @@
-<section class="newsletter type_one pdt_80  pdb_80" id="arak">
+<section class="newsletter type_one pdt_30  pdb_30" id="arak">
     <div class="container">
         <div class="row">
             <!---------row----------->

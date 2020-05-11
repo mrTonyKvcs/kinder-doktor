@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Appointment;
 use Illuminate\Http\Request;
+use App\Mail\AppointmentsMail;
+use Illuminate\Support\Facades\Mail;
 
 class AppointmentsController extends Controller
 {
@@ -49,9 +51,15 @@ class AppointmentsController extends Controller
             $request['order_number'] = $latestOrder['order_number'] + 1;
         }
 
-        $appoinment = Appointment::create($request->all());
+        $appointment = Appointment::create($request->all());
 
-        $orderNumber = $appoinment->order_number;
+        $orderNumber = $appointment->order_number;
+        
+        \Mail::to($request->email)
+            ->send(new \App\Mail\AppointmentsMail($request->all()));
+
+        \Mail::to('info@covidvirusteszt.hu')
+            ->send(new \App\Mail\NewApply($request->all()));
 
         return view('appointments.greeting', compact('orderNumber', 'piece', 'total'));
     }

@@ -1,4 +1,4 @@
-<section class="about type_one pdt_100 pdb_70  wow fadeIn" data-wow-delay="100ms" data-wow-duration="1500ms" id="covid-19">
+<section class="about type_one pdt_50 pdb_50  wow fadeIn" data-wow-delay="100ms" data-wow-duration="1500ms" id="covid-19">
     <div class="container">
         <div class="row">
             <!---------row----------->

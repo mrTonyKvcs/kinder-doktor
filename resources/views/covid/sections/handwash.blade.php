@@ -1,4 +1,4 @@
-<section class="handwash symptoms type_one pdt_60  pdb_90 wow fadeIn" data-wow-delay="100ms" data-wow-duration="1500ms" id="kezmosas">
+<section class="handwash symptoms type_one pdt_30  pdb_40 wow fadeIn" data-wow-delay="100ms" data-wow-duration="1500ms" id="kezmosas">
     <div class="container">
         <div class="row">
             <!---------row----------->
