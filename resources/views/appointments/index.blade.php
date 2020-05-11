@@ -33,7 +33,7 @@
                     <!------col------->
                     <div class="heading tp_one">
                         <h1>Adatlap</h1>
-                        <p style="font-size: 21px;">A normál ár 11.500, kedvezményes ár 6 fő felett, és a védekezésben dolgozóknak 9200.</p>
+                        <p style="font-size: 21px;">A normál ár 11.500Ft, kedvezményes ár 6 fő felett, és a védekezésben dolgozóknak 9200Ft.</p>
                         <p>(Kedvezményes ár: Egészségügyi intézmények, Tűzoltóparancsnokság, Rendőrkapitányság, Katasztrófavédelem, Polgármesteri hivatal dolgozói)</p>
                     </div>
                     <div class="appointment_form pdb_90">
