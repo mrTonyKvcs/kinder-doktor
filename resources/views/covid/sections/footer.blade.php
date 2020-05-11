@@ -62,16 +62,14 @@
                     </div>
                     <div class="emergency_phone">
                         <h6>Telefonszám</h6>
-                        <h2><a href="tel:+36706282124" style="color: #dd2d4e;">+36706282124</a></h2>
+                        <h2><a href="tel:+36306038815" style="color: #dd2d4e;">+36306038815</a></h2>
                     </div>
                     <ul class="contact_all">
-                        <li><a href="#"><span class="linearicons-home4"></span>Kecskemét 6000 Kápolna u. 15.</a></li>
-                        <li><a href="#"><span class="linearicons-envelope-open"></span>Email: <small>kinderdoki@gmail.com</small></a></li>
+                        <li><a href="#"><span class="linearicons-home4"></span>6000 Kecskemét, Piaristák tere 7. <br>(A tüdőgondozó oldalában.)</a></li>
+                        <li><a href="mailtto:info@covidvirusteszt.hu"><span class="linearicons-envelope-open"></span>Email: <small>info@covidvirusteszt.hu</small></a></li>
                     </ul>
                     <ul class="social_media">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
                 <!---------col-end---------->
@@ -88,10 +86,10 @@
                 <!---------col----------->
                 <div class="footer_last_box">
                     <div class="logo_footer">
-                        <img src="/covid/image/logo-default.png" class="img-fluid" alt="img" />
+                        <img src="/covid/image/logo-white.png" class="img-fluid" alt="img" />
                     </div>
                     <ul>
-                        <li>© Copyright 2020 Kinder-Doktor</li>
+                        <li>© Copyright 2020 Labordiagnosztika Kecskemét</li>
                         <li> |</li>
                         <li> <a href="/pdfs/kinder-doktor-gdpr.pdf" target="_blank">Adatkezelési Tájékoztató</a> </li>
                         <li> <a href="/pdfs/beleegyezo-nyilatkozat.pdf" target="_blank">Beleegyező Nyilatkozat</a> </li>

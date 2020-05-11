@@ -23,7 +23,9 @@ class Appointment extends Model
         'zip_code',
         'gdpr',
         'is_nurse',
-        'total'
+        'total',
+        'statement',
+        'order_number'
     ];
 
     /**

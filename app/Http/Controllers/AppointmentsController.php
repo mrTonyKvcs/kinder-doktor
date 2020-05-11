@@ -27,7 +27,8 @@ class AppointmentsController extends Controller
             'address' => 'required',
             'zip_code' => 'required',
             'gdpr' => 'required',
-            'is_nurse' => 'required'
+            'is_nurse' => 'required',
+            'statement' => 'required'
         ]);
 
         if ($request->piece > 5 || $request->is_nurse) {
@@ -39,9 +40,19 @@ class AppointmentsController extends Controller
         $request['total'] = $total;
 
         $piece = $request['piece'];
+        
+        $latestOrder = Appointment::orderBy('created_at','DESC')->first();
+
+        if ($latestOrder == null) {
+            $request['order_number'] = 1000;
+        } else {
+            $request['order_number'] = $latestOrder['order_number'] + 1;
+        }
 
         $appoinment = Appointment::create($request->all());
 
-        return view('appointments.greeting', compact('piece', 'total'));
+        $orderNumber = $appoinment->order_number;
+
+        return view('appointments.greeting', compact('orderNumber', 'piece', 'total'));
     }
 }

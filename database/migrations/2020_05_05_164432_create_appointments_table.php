@@ -15,6 +15,7 @@ class CreateAppointmentsTable extends Migration
     {
         Schema::create('appointments', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('order_number');
             $table->string('last_name');
             $table->string('first_name');
             $table->string('birthday');
@@ -26,9 +27,10 @@ class CreateAppointmentsTable extends Migration
             $table->string('city')->nullable()->default(null);
             $table->string('zip_code')->nullable()->default(null);
             $table->string('address')->nullable()->default(null);
-            $table->boolean('gdpr');
             $table->boolean('is_nurse');
             $table->integer('total');
+            $table->boolean('gdpr');
+            $table->boolean('statement');
             $table->timestamps();
             $table->softDeletes();
         });

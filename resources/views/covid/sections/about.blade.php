@@ -9,11 +9,11 @@
                         <h6>A betegségről</h6>
                         <h1>COVID-19 koronavírus</h1>
                     </div>
-                    <p>A koronavírus-betegség (COVID-19) egy súlyos, akut légzőszervi betegség. A
+                    <p style="font-size: 18px;">A koronavírus-betegség (COVID-19) egy súlyos, akut légzőszervi betegség. A
 betegséget először 2019-ben fedezték fel Wuhan-ban, a kínai Hubei fővárosában, és
 azóta világszerte elterjedt. 2020. március 11-én a WHO világjárvánnyá, pandémiává
 nyilvánította a COVID–19 koronavírus-járványt.</p>
-                    <p>Általános tünetek a láz, köhögés és légszomj. Egyéb tünetek lehetnek izomfájdalom,
+                    <p style="font-size: 18px;">Általános tünetek a láz, köhögés és légszomj. Egyéb tünetek lehetnek izomfájdalom,
 köpetképződés, hasmenés, torokfájás, hasi fájdalom, szag- és ízérzés vesztése.</p>
                 </div>
                 <!---------col-end---------->

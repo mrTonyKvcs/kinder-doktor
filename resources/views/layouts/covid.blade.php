@@ -14,7 +14,7 @@
       <!-- Responsive -->
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-      <title>Kinder Doktor | Afias COVID-19 Ab megbízható gyorsteszt</title>
+      <title>Labordiagnosztika Kecskemét | Afias 6 megbízható laborteszt</title>
       <link rel="stylesheet" type="text/css" href="/covid/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="/covid/css/style.css">
       <!---------favicon--------------->

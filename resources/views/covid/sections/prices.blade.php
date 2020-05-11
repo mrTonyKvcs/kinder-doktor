@@ -7,7 +7,7 @@
                 <div class="heading white text-center tp_one">
                     <h6>Árak</h6>
                     <h1 style="color: #274782;">Megbízható laborteszt</h1>
-                    {{--<p> Travel restrictions or screening air travellers for high temperature (fever) may help to prevent the SARS <br class="md_display_none">infection being spread.</p>--}}
+                    <p style="font-size: 18px;">A teszt az AFIAS 6 COVID- 19 Ab – egy fluoreszcens immunkémiai teszt, mely az új koronavírus (SARS-CoV-2) ellen termelt IgM/IgG kimutatását végzi. Pozitív esetben 100%-os a szenzitivitása.  Negatív esetben 96,7 %.</p>
                 </div>
                 <!---------col-end---------->
             </div>
@@ -22,8 +22,8 @@
                         {{--<img src="assets/image/resources/symptoms-2-1.png" class="img-fluid" alt="img">--}}
                     {{--</div>--}}
                     <div class="content_box">
-                        <h2 class=""><a href="#">11.500 fő egyidejű szűrése</a></h2>
-                        <h3>11.500Ft</h3>
+                        <h2 class=""><a href="#">1 fő részére</a></h2>
+                        <h3>11.500Ft / fő</h3>
                     </div>
                 </div>
                 <!---------symptoms_box-end---------->
@@ -36,7 +36,7 @@
                     {{--</div>--}}
                     <div class="content_box">
                         <h2><a href="#">6 fő felett</a></h2>
-                        <h3>9.200 Ft /fő</h3>
+                        <h3>9.200 Ft / fő</h3>
                     </div>
                 </div>
                 <!---------symptoms_box-end---------->
@@ -49,6 +49,10 @@
                     {{--</div>--}}
                     <div class="content_box">
                         <h2><a href="#">Kedvezményes ár (Védekezésben dolgozóknak)</a></h2>
+                        <p style="font-size: 18px;">Egészségügyi intézmények, Tűzoltóparancsnokság, Rendőrkapitányság, Katasztrófavédelem, Polgármesteri hivatal dolgozói</p>
+                        {{--<ul>--}}
+                            {{--<li></li>--}}
+                        {{--</ul>--}}
                         <h3>9.200 Ft /fő</h3>
                     </div>
                 </div>

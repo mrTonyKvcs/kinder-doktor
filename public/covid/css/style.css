@@ -59,6 +59,7 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,900;1,300;1,400;1,800&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
  
  /*** 
  ====================================================================
@@ -100,7 +101,7 @@
 	 position: relative;
 	 padding: 0;
 	 margin: 0;
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
 	 color: #53627e;
 	 background: #ffffff;
 	 -webkit-font-smoothing: antialiased;
@@ -161,7 +162,7 @@
 	 -ms-transition: all .6s ease-in-out;
 	 -o-transition: all .6s ease-in-out;
 	 transition: all .6s ease-in-out;
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
  }
  
  h1 a,
@@ -178,13 +179,13 @@
 	 -ms-transition: all .6s ease-in-out;
 	 -o-transition: all .6s ease-in-out;
 	 transition: all .6s ease-in-out;
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
  }
  
  p {
 	 padding: 0;
 	 margin: 0;
-	 font-size: 16px;
+	 font-size: 18px;
 	 font-weight: 500;
 	 line-height: 30px;
 	 -webkit-transition: all .6s ease-in-out;
@@ -192,7 +193,7 @@
 	 -ms-transition: all .6s ease-in-out;
 	 -o-transition: all .6s ease-in-out;
 	 transition: all .6s ease-in-out;
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
 	 color: #53627e;
  }
  
@@ -248,7 +249,7 @@
  /*-----------jquery-ui-css---------*/
  
  .ui-widget {
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
  }
  
  .ui-selectmenu-menu {
@@ -472,7 +473,7 @@
  .help-block.with-errors {
 	 padding-top: 5px;
 	 font-size: 16px;
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
 	 color: #dd2d4e;
  }
  
@@ -482,7 +483,7 @@
  
  .gm-style .gm-style-iw-c h4 {
 	 font-size: 20px;
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
 	 color: #274782;
 	 font-weight: 800;
  }
@@ -607,7 +608,7 @@
  
  .odometer.odometer-auto-theme,
  .odometer.odometer-theme-default {
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
  }
  
  .bg_dark {
@@ -703,7 +704,7 @@
 	 font-weight: 700;
 	 transition: all .5s ease;
 	 text-align: center;
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
 	 -webkit-transition: all .6s ease-in-out;
 	 -moz-transition: all .6s ease-in-out;
 	 -ms-transition: all .6s ease-in-out;
@@ -746,7 +747,7 @@
 	 font-weight: 700;
 	 transition: all .5s ease;
 	 text-align: center;
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
 	 -webkit-transition: all .6s ease-in-out;
 	 -moz-transition: all .6s ease-in-out;
 	 -ms-transition: all .6s ease-in-out;
@@ -790,7 +791,7 @@
 	 font-weight: 700;
 	 transition: all .5s ease;
 	 text-align: center;
-	 font-family: 'Nunito', sans-serif;
+	 font-family: 'Montserrat', sans-serif;
 	 -webkit-transition: all .6s ease-in-out;
 	 -moz-transition: all .6s ease-in-out;
 	 -ms-transition: all .6s ease-in-out;
@@ -7718,7 +7719,7 @@ color: #274782;
  }
  
  .overall_deatils .nav-pills .nav-link {
-	 font-size: 16px;
+	 font-size: 17px;
 	 font-weight: 700;
 	 border-radius: 30px;
 	 color: #274782;

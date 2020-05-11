@@ -33,7 +33,8 @@
                     <!------col------->
                     <div class="heading tp_one">
                         <h1>Adatlap</h1>
-                        <p style="font-size: 21px;">A normál ár 11.500, 6 fő felett, és a védekezésben dolgozóknak 9200.</p>
+                        <p style="font-size: 21px;">A normál ár 11.500, kedvezményes ár 6 fő felett, és a védekezésben dolgozóknak 9200.</p>
+                        <p>(Kedvezményes ár: Egészségügyi intézmények, Tűzoltóparancsnokság, Rendőrkapitányság, Katasztrófavédelem, Polgármesteri hivatal dolgozói)</p>
                     </div>
                     <div class="appointment_form pdb_90">
                         <form  action="{{ route('appointments.store')}}" method="POST">
@@ -151,13 +152,13 @@
                                 <div class="col-lg-8">
                                     <div class="form-group mg_top accept check_box">
                                         <input name="gdpr" type="checkbox" id="test4" required="required" value="1">
-                                        <label for="test4"><a href="/pdfs/kinder-doktor-gdpr.pdf" target="_blank">Adatkezelési tájékoztatóban </a>foglaltakat elolvastam, megértettem, és időpont kéréssel hozzájárulok ahhoz, hogy személyes adataimat a tájékoztatóban megjelölt célból és feltételekkel a Kinder-doktor Kft. kezelje.</label>
+                                        <label for="test4"><a href="/pdfs/kinder-doktor-gdpr.pdf" target="_blank">Adatkezelési tájékoztatóban </a>foglaltakat elolvastam, megértettem, és időpont kéréssel hozzájárulok ahhoz, hogy személyes adataimat a tájékoztatóban megjelölt célból és feltételekkel a Labordiagnosztika Kecskemét kezelje.</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="form-group mg_top accept check_box">
-                                        <input name="gdpr" type="checkbox" id="test4" required="required" value="1">
-                                        <label for="test4">Elfogadom a <a href="/pdfs/beleegyezo-nyilatkozat.pdf" target="_blank">beleegyező nyilatkozat</a>ot</label>
+                                        <input name="statement" type="checkbox" id="tes" required="required" value="1">
+                                        <label for="tes">Elfogadom a <a href="/pdfs/beleegyezo-nyilatkozat.pdf" target="_blank">beleegyező nyilatkozat</a>ot</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
