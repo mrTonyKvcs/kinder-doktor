@@ -11,7 +11,9 @@
                         <p>Ha kérdése van, forduljon hozzánk bizalommal!</p>
                     </div>
                     <div class="form_box type_one">
-                        <form>
+                        <form action="/covid-19/uzenet-kuldes" method="POST">
+                        {{--<form action="{{ route('covid.send-a-message') }}" method="POST">--}}
+                            {{ csrf_field() }}
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
@@ -33,13 +35,13 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group textarea">
-                                        <textarea name="message" placeholder="Üzenete..." rows="6" required></textarea>
+                                        <textarea class="text-dark" name="message" placeholder="Üzenete..." rows="6" required></textarea>
                                         <small class="linearicons-pencil4"></small>
                                     </div>
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="form-group mg_top check_box">
-                                        <input name="checkbox" type="checkbox" id="test2" required="required">
+                                        {{--<input name="checkbox" type="checkbox" id="test2" required="required">--}}
                                         {{--<label for="test2">I accept the <a href="#" target="_blank">Privacy Policy.</a></label>--}}
                                     </div>
                                 </div>

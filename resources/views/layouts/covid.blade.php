@@ -23,6 +23,16 @@
       <!---------favicon--------------->
    </head>
    <body class="scroll_bar_style_one">
+       <div class="row">
+           <div class="col-lg-12">
+
+               @if(session()->has('message'))
+                   <div class="alert alert-success mb-0 rounded-0">
+                       {{ session()->get('message') }}
+                   </div>
+               @endif
+           </div>
+       </div>
       <div class="page_wapper">
          <!--page_wapper-->
          <!--Start Preloader-->
@@ -36,6 +46,8 @@
          </div>
          <!--End Preloader-->
          <header class="header_v1">
+             <div class="col-lg-12">
+             </div>
              @include('partials.covid-navbar')
          </header>
          <!--Header-->

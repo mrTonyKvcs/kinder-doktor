@@ -6,7 +6,7 @@
 <body>
     <h2>Új jelentkező adatai:</h2>
     <hr>
-    <p><strong>Rendeléai azonosító:</strong>{{ $appointment['order_number'] }}</p>
+    <p><strong>Rendelési azonosító:</strong>{{ $appointment['order_number'] }}</p>
     <p><strong>Feladó:</strong>{{ $appointment['last_name'] . ' ' . $appointment['first_name'] }}</p>
     <p><strong>Email cím:</strong>{{ $appointment['email'] }}</p>
     <p><strong>Telefonszám:</strong> {{ $appointment['phone_number'] }}</p>

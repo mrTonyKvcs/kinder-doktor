@@ -20,4 +20,19 @@ class CovidController extends Controller
 
         return view('covid.index', compact('data'));
     }
+
+    public function sendAMessage(Request $request)
+    {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'message' => 'required',
+        ]);
+
+        \Mail::to('info@covidvirusteszt.hu')
+            ->send(new \App\Mail\ContactMail($request->all()));
+
+        return back()->with('message', 'Sikeres üzenet küldés!');
+    }
 }

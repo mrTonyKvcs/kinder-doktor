@@ -26,6 +26,7 @@ Route::get('covid-19', [ 'as' => 'covid.index', 'uses' => 'CovidController@index
 Route::get('covid-19/online-bejelentkezes', [ 'as' => 'appointments.index', 'uses' => 'AppointmentsController@index']);
 Route::post('covid-19/online-bejelentkezes', [ 'as' => 'appointments.store', 'uses' => 'AppointmentsController@store']);
 Route::get('covid-19/online-bejelentkezes/sikeres-jelentekez', [ 'as' => 'appointments.greeting', 'uses' => 'AppointmentsController@greeting']);
+Route::post('covid-19/uzenet-kuldes', [ 'as' => 'covid.send-a-message', 'uses' => 'CovidController@sendAMessage']);
 
 Route::get('admin/hirek', [ 'as' => 'admin.blogs', 'uses' => 'Admin\PostController@index']);
 Route::post('admin/hirek', [ 'as' => 'admin.blogs.store', 'uses' => 'Admin\PostController@store']);
