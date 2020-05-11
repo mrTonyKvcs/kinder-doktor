@@ -11,7 +11,7 @@
                         <div class="inner_box">
                             {{--<h6  class="wow slideInDown" data-wow-delay="100ms" data-wow-duration="1500ms">#maradjotthon</h6>--}}
                             <h1  class="wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Afias 6 megbízható laborteszt</h1>
-                            <p  class="wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">A vizsgálatot az OGYEI által engedélyezett BODITECH BIO TECHNOLOGY cég AFIAS 6 hatcsatornás diagnosztikai gépével végezzük. A teszt az AFIAS 6 COVID-19 Ab – egy fluoreszcens immunkémiai teszt, mely az új koronavírus (SARS-CoV-2) ellen termelt IgM/IgG kimutatását végzi. Pozitív esetben 100%-os a szenzitivitása. Negatív esetben 96,7 %.</p>
+                            <p  class="wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">A vizsgálatot az OGYEI/24099-3/2020 által engedélyezett BODITECH BIO TECHNOLOGY cég AFIAS 6 hatcsatornás diagnosztikai gépével végezzük. A teszt az AFIAS 6 COVID-19 Ab – egy fluoreszcens immunkémiai teszt, mely az új koronavírus (SARS-CoV-2) ellen termelt IgM/IgG kimutatását végzi. Pozitív esetben 100%-os a szenzitivitása. Negatív esetben 96,7 %.</p>
                             <div class="link_box wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <a href="{{ route('appointments.index') }}" class="theme_btn tp_one"><span class="linearicons-calendar-text icon"></span>Online bejelentkezés</a> <a href="#arak" class="theme_btn tp_border link_hd"><span class="linearicons-arrow-right"></span>Árak</a>
                             </div>

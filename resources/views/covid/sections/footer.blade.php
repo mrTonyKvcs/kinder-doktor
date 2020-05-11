@@ -91,6 +91,7 @@
                         <img src="/covid/image/logo-white.png" class="img-fluid" alt="img" />
                     </div>
                     <ul>
+                        <li> Kinder-Doktor Bt.</li>
                         <li>© Copyright 2020 Labordiagnosztika Kecskemét</li>
                         <li> |</li>
                         <li> <a href="/pdfs/kinder-doktor-gdpr.pdf" target="_blank">Adatkezelési Tájékoztató</a> </li>
