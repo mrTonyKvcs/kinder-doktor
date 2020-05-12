@@ -32,24 +32,6 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6">
-                        <div class="widget contact-form">
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="{{ trans('contact.name') }}">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="{{ trans('contact.email') }}">
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="{{ trans('contact.message') }}" rows="8"></textarea>
-                                </div>
-                                <div class="display-block">
-                                    <button type="submit" id="submit01" class="medical-button" name="submit" disabled>{{ trans('contact.button') }}</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-5 pull-right">
                         <div class="widget contact-info">
                             <h3>{{ trans('contact.children') }}</h3>
                             <p><i class="fa fa-map-marker"></i> Kecskemét 6000 Tövis u. 10.</p>
@@ -58,6 +40,24 @@
                             <p><i class="fa fa-envelope"></i> <a href="mailTo:kinderdoki@gmail.com" class="color-70">kinderdoki@gmail.com</a> </p>
                             <p><i class="fa fa-phone"></i> <a href="tel:+3676509661" target="_blank">+3676509661</a></p>
                         </div>
+                        {{--<div class="widget contact-form">--}}
+                            {{--<form>--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<input type="text" class="form-control" placeholder="{{ trans('contact.name') }}">--}}
+                                {{--</div>--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<input type="text" class="form-control" placeholder="{{ trans('contact.email') }}">--}}
+                                {{--</div>--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<textarea class="form-control" placeholder="{{ trans('contact.message') }}" rows="8"></textarea>--}}
+                                {{--</div>--}}
+                                {{--<div class="display-block">--}}
+                                    {{--<button type="submit" id="submit01" class="medical-button" name="submit" disabled>{{ trans('contact.button') }}</button>--}}
+                                {{--</div>--}}
+                            {{--</form>--}}
+                        {{--</div>--}}
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-5 pull-right">
                         <div class="widget contact-info">
                             <h3>{{ trans('contact.private') }}</h3>
                             <p><i class="fa fa-map-marker"></i> Kecskemét 6000 Kápolna u. 15.</p>

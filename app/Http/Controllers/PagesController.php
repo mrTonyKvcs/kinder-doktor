@@ -2,14 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use App\Blog;
+use App\Post;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
     public function index()
     {
-        $blogs = Blog::all()->random(3);
+        $allBlogs = Post::all();
+
+        if (count($allBlogs) >= 3) {
+            $blogs = $allBlogs->random(3);
+        } else {
+            $blogs = $allBlogs;
+        }
 
         return view('pages.index', compact('blogs'));
     }
@@ -33,5 +39,4 @@ class PagesController extends Controller
     {
         return view('pages.contact');
     }
-
 }

@@ -1,0 +1,91 @@
+/* Typography */
+
+/* Animations */
+
+/*// Fonts*/
+
+/*}*/
+
+.c-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+  background-image: url("/images/slider.png");
+  background-position: center;
+}
+
+.c-slider__item {
+  text-align: center;
+  color: white;
+}
+
+.c-slider__title {
+  font-weight: 600;
+  color: #0d9bd6;
+}
+
+.c-slider__text {
+  font-size: 18px;
+  color: #fff;
+}
+
+.c-slider__button {
+  font-size: 16px;
+  background-color: #F18CB9;
+  color: #0facee;
+}
+
+.choose .choose-content {
+  margin-left: 0;
+}
+
+.choose .service-title {
+  color: #0facee;
+}
+
+.depart-image {
+  margin-bottom: 0;
+}
+
+.color-dark-gray {
+  color: #333;
+}
+
+.section-subbanner .breadcrumb {
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 770px) {
+  .slider-section {
+    display: none;
+  }
+}
+
+.pt-16 {
+  padding-top: 1.6rem;
+}
+
+.blogpost .type-post .entry-meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.color-pink {
+  color: #FF69B4;
+}
+
+.topbar .fa {
+  color: #0facee;
+}
+
