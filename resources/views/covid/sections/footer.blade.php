@@ -71,7 +71,7 @@
                         <li><a href="mailtto:info@covidvirusteszt.hu"><span class="linearicons-envelope-open"></span>Email: <small>info@covidvirusteszt.hu</small></a></li>
                     </ul>
                     <ul class="social_media">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/covidteszt/?__tn__=kCH-R&eid=ARAdqTU4-y34-K198cTC1xGQFPHCJEmDr54MvO0mhJCtpF_jKI4JBhiMsFY4S-49GbFiOm02YJvBBP79&hc_ref=ART6qGsNQgKQzlFoIt_GJCM4a4rO0iUUojU-hLCYe8b9Pow9xP9J5yd9jw259oQPXsM&fref=nf&__xts__[0]=68.ARC6bLvB-hBffcUgutUVdE1cjY3_vVhFEgNZGYzCUOfb7TNzF0aHAmX0brLXHwm-syTEfyzOoUFW9iIWwSd-Pg7jYDfERhRHdJxumTyv_cRrnv9nTA5JXkEX0b0xoapCyalm0o31r-hNt4_jYKwSHOs34MKVSsEKr6n9fznOXsv_1fSwJMrGc0dq3f3NTwq2bpHpSo2jWQ79c35ZDNV92ymlogho0hbGR-YyMx8aEdCVZJEE0MOVcJ1QM4pa93MRL9JVdE_08J7AbhdrXFG3Csf4WM__Y9eZJhJ2QLvrFURHUjSgNc5I_2S9DerbXueIqswqI8yuVWi3GERhdZYeMFhd" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                 </div>
                 <!---------col-end---------->
