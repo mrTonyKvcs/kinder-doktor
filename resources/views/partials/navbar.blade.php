@@ -55,27 +55,30 @@
     <nav class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <a href="{{ route('pages.index') }}">{{ trans('navbar.home') }}</a>
+                <a style="font-size: 13px;" href="{{ route('pages.index') }}">{{ trans('navbar.home') }}</a>
             </li> 
             
             <li>
-                <a href="{{ route('pages.homeopathy') }}">{{ trans('navbar.homeopathy') }}</a>
+                <a style="font-size: 13px;" href="{{ route('pages.homeopathy') }}">{{ trans('navbar.homeopathy') }}</a>
             </li>
 
             <li>
-                <a href="{{ route('pages.schussler') }}">{{ trans('navbar.schussler') }}</a>
+                <a style="font-size: 13px;" href="{{ route('pages.schussler') }}">{{ trans('navbar.schussler') }}</a>
             </li>
 
             <li>
-                <a href="{{ route('pages.services') }}">{{ trans('navbar.services') }}</a>
+                <a style="font-size: 13px;" href="{{ route('pages.services') }}">{{ trans('navbar.services') }}</a>
             </li>
 
             <li>
-                <a href="{{ route('blogs.index') }}">{{ trans('navbar.news') }}</a>
+                <a style="font-size: 13px;" href="{{ route('blogs.index') }}">{{ trans('navbar.news') }}</a>
             </li>
 
             <li>
-                <a href="{{ route('pages.contact') }}">{{ trans('navbar.contact') }}</a>
+                <a style="font-size: 13px;" href="{{ route('pages.contact') }}">{{ trans('navbar.contact') }}</a>
+            </li>
+            <li>
+                <a style="font-size: 13px;" href="{{ route('appointments.index') }}">Online bejelentkezés</a>
             </li>
         </ul>
     </nav>
