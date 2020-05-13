@@ -15,6 +15,9 @@
                             <div class="link_box wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <a href="{{ route('appointments.index') }}" class="theme_btn tp_one"><span class="linearicons-calendar-text icon"></span>Online bejelentkezés</a> <a href="#arak" class="theme_btn tp_border link_hd"><span class="linearicons-arrow-right"></span>Árak</a>
                             </div>
+                            <div class="link_box wow slideInUp mt-3" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <a href="/pdfs/vizsgalat.pdf" class="theme_btn tp_border link_hd"><span class="linearicons-arrow-right"></span>Hogy történik a vizsgálat?</a>
+                            </div>
                         </div>
                     </div>
                 </div>
