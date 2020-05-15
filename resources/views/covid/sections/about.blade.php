@@ -6,15 +6,13 @@
                 <!---------col----------->
                 <div class="about_content">
                     <div class="heading tp_one">
-                        <h6>A betegségről</h6>
-                        <h1>COVID-19 koronavírus</h1>
+                        <h6>A vizsgálatról</h6>
+                        <h1>Miért jó, ha részt vesz a vizsgálaton?</h1>
                     </div>
-                    <p style="font-size: 18px;">A koronavírus-betegség (COVID-19) egy súlyos, akut légzőszervi betegség. A
-betegséget először 2019-ben fedezték fel Wuhan-ban, a kínai Hubei fővárosában, és
-azóta világszerte elterjedt. 2020. március 11-én a WHO világjárvánnyá, pandémiává
-nyilvánította a COVID–19 koronavírus-járványt.</p>
-                    <p style="font-size: 18px;">Általános tünetek a láz, köhögés és légszomj. Egyéb tünetek lehetnek izomfájdalom,
-köpetképződés, hasmenés, torokfájás, hasi fájdalom, szag- és ízérzés vesztése.</p>
+                    <p style="font-size: 18px;">A koronavírus teszt elvégzését követően a kórelőzmény és a vizsgálat eredménye alapján meg tudjuk mondani Önnek, hogy az elmúlt időszakban már átesett-e a betegségen, vagy jelenleg is zajlik a betegsége tünetmentesen, vagy az ön szervezete nem termelt még kimutatható mennyiségű ellenanyagot a vírus ellen.</p>
+                    <p style="font-size: 18px;">A vizsgálatot egészségügyi szakemberek végzik, ujjbegyből vett vérből.</p>
+                    <p style="font-size: 18px;">Az elvégzett vizsgálatokról a leletet 20 perc múlva vagy email-ben kapják meg ügyfeleink.</p>
+                    <p style="font-size: 18px;"><b>A szűrés Kecskemét belvárosában, Kecskemét Piaristák tere 7. sz. alatt ( a fogorvosi ügyelet mellett ) történik.</b></p>
                 </div>
                 <!---------col-end---------->
             </div>

@@ -10,7 +10,7 @@
     <p>Kollégánk hamarosan felveszi Önnel a kapcsolatot, az ön által megjelölt telefonszámon.
 További kérdéseivel nyugodtan keressen bennünket  regisztrációs számának megjelölésével az info@covidvirusteszt.hu email cimen.</p>
     <p>Amennyiben atutalással szeretne fizetni, kérjuk abban az esetben a megjegyzés rovatban az általunk küldött regisztrációs számot legyen szives feltüntetni.</p>
-    <p><strong>Bankszámlaszám:</strong> 14100141-74358149-02000001</p>
+    <p><strong>Bankszámlaszám:</strong>Kinder-Doktor Bt. 14100141-74358149-02000001</p>
     <hr>
     <p><strong>Feladó:</strong>{{ $appointment['last_name'] . ' ' . $appointment['first_name'] }}</p>
     <p><strong>Email cím:</strong>{{ $appointment['email'] }}</p>
