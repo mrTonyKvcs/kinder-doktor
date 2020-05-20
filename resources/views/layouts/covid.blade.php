@@ -21,6 +21,35 @@
       <link rel="icon" type="image/png" href="/covid/image/logo-default.png" sizes="32x32">
       <link rel="icon" type="image/png" href="/covid/image/favicon-16x16.png" sizes="16x16">
       <!---------favicon--------------->
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+
+      <!-- Global site tag (gtag.js) - Google Ads: 631457814 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-631457814"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-631457814'); </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87399146-3"></script>
+
+      <script>
+
+          window.dataLayer = window.dataLayer || [];
+
+          function gtag(){dataLayer.push(arguments);}
+
+          gtag('js', new Date());
+
+
+
+          gtag('config', 'UA-87399146-3');
+
+      </script>
+
+      <!-- Event snippet for Űrlap kitöltés conversion page -->
+      @hasSection('event-snippet')
+      <script>
+
+          gtag('event', 'conversion', {'send_to': 'AW-631457814/h229CKKk69ABEJaQja0C'});
+
+      </script>
+      @endif
+      <script> gtag('config', 'AW-631457814/F2u7COqP69ABEJaQja0C', { 'phone_conversion_number': '+36306038815' }); </script>
    </head>
    <body class="scroll_bar_style_one">
        <div class="row">
