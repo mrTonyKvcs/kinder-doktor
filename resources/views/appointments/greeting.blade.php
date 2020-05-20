@@ -1,4 +1,5 @@
 @extends('layouts.covid')
+@section('event-snippet')
 @section('content')
 
     <!------main-content------>
