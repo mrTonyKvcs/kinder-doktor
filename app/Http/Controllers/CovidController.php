@@ -10,7 +10,7 @@ class CovidController extends Controller
 {
     public function index ()
     {
-        $data = ['2649', '516', '0', '67172'];
+        $data = ['1654', '1371', '0', '131429'];
         //$url = 'https://koronavirus.gov.hu';
         //$client = new Client();
         //$crawler = $client->request('GET', $url);
