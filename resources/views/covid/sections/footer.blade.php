@@ -10,6 +10,13 @@
                         <h1 class="title">Üzenet küldés</h1>
                         <p>Ha kérdése van, forduljon hozzánk bizalommal!</p>
                     </div>
+                    {!! NoCaptcha::renderJs() !!}
+
+                    @if ($errors->has('g-recaptcha-response'))
+                        <span class="help-block">
+                            <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                        </span>
+                    @endif
                     <div class="form_box type_one">
                         <form action="/covid-19/uzenet-kuldes" method="POST">
                         {{--<form action="{{ route('covid.send-a-message') }}" method="POST">--}}
@@ -39,8 +46,9 @@
                                         <small class="linearicons-pencil4"></small>
                                     </div>
                                 </div>
-                                <div class="col-lg-8">
+                                <div class="col-lg-12">
                                     <div class="form-group mg_top check_box">
+                                        {!! NoCaptcha::display() !!}
                                         {{--<input name="checkbox" type="checkbox" id="test2" required="required">--}}
                                         {{--<label for="test2">I accept the <a href="#" target="_blank">Privacy Policy.</a></label>--}}
                                     </div>
