@@ -16,6 +16,20 @@ class AppointmentsController extends Controller
 
     public function store(Request $request)
     {
+        $messages = [
+            'g-recaptcha-response.required' => 'You must check the reCAPTCHA.',
+            'g-recaptcha-response.captcha' => 'Captcha error! try again later or contact site admin.',
+        ];
+ 
+        $validator = \Validator::make($request->all(), [
+            'g-recaptcha-response' => 'required|captcha'
+        ], $messages);
+ 
+        if ($validator->fails()) {
+            return redirect('ROUTE_HERE')
+                        ->withErrors($validator)
+                        ->withInput();
+        }
         $request->validate([
             'last_name' => 'required',
             'first_name' => 'required',

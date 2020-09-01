@@ -37,6 +37,12 @@
                         <p>(Kedvezményes ár: Egészségügyi intézmények, Tűzoltóparancsnokság, Rendőrkapitányság, Katasztrófavédelem, Polgármesteri hivatal dolgozói)</p>
                     </div>
                     <div class="appointment_form pdb_90">
+                        {!! NoCaptcha::renderJs() !!}
+                        @if ($errors->has('g-recaptcha-response'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                            </span>
+                        @endif
                         <form  action="{{ route('appointments.store')}}" method="POST">
                             {{ csrf_field() }}
                             <div class="row">
@@ -142,18 +148,21 @@
                                 {{--<div class="col-lg-6 my-3">--}}
                                     {{--<div class="form-group mb-0 d-flex align-items-center">--}}
                                         {{--<h2>Bruttó végösszeg:</h2>--}}
+                                        {{--</div>--}}
                                     {{--</div>--}}
-                                {{--</div>--}}
                                 {{--<div class="col-lg-6 my-3">--}}
                                     {{--<div class="form-group mb-0">--}}
                                         {{--<h2 id="all"></h2>--}}
+                                        {{--</div>--}}
                                     {{--</div>--}}
-                                {{--</div>--}}
                                 <div class="col-lg-8">
                                     <div class="form-group mg_top accept check_box">
                                         <input name="gdpr" type="checkbox" id="test4" required="required" value="1">
                                         <label for="test4"><a href="/pdfs/kinder-doktor-gdpr.pdf" target="_blank">Adatkezelési tájékoztatóban </a>foglaltakat elolvastam, megértettem, és időpont kéréssel hozzájárulok ahhoz, hogy személyes adataimat a tájékoztatóban megjelölt célból és feltételekkel a Labordiagnosztika Kecskemét kezelje.</label>
                                     </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    {!! NoCaptcha::display() !!}
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="form-group mg_top accept check_box">
