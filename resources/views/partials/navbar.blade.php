@@ -77,9 +77,6 @@
             <li>
                 <a style="font-size: 13px;" href="{{ route('pages.contact') }}">{{ trans('navbar.contact') }}</a>
             </li>
-            <li>
-                <a style="font-size: 13px;" href="{{ route('appointments.index') }}">Online bejelentkezés</a>
-            </li>
         </ul>
     </nav>
 </div>
